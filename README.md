@@ -1,3 +1,9 @@
 # Bob call audition desk
 
-Static listening desk with separated vocal candidates, a signature Aah Haa shuffle pool, and steel-feature test estimates. Open the GitHub Pages site to listen. This is an automatic first-pass audition snapshot; wording, speaker and isolation quality can be reviewed in the desk. Original mixes and context audio are excluded.
+[Open the listening desk](https://texasradio.github.io/bob-call-audition-desk/).
+
+Press **AAH HAA!** for a shuffled signature-call variant. Encouragement and named-player cues have their own pools. Play and download individual isolated clips, keep or skip selections, and audition the steel-feature tests below the calls.
+
+This is a first-pass audition library. Automatic wording, call categories, speaker attribution and instrumental isolation can be checked in the desk. Unclassified vocal snippets remain a separate group. Original mixes and context audio are excluded; source references remain in the manifests.
+
+The desktop C selector adapter and source research remain in the development workspace. This site does not install or change instrument firmware.

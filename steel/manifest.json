@@ -28,9 +28,24 @@
       "sample_rate": 44100,
       "frames": 970200,
       "duration_seconds": 22.0,
-      "label": "Steel Guitar Rag steel-feature guitar-model estimate [19.0–41.0s]",
+      "label": "Steel Guitar Rag steel-feature guitar-model estimate [19–41s]",
       "classification_status": "automatic_instrument_estimate_unverified",
-      "player_attribution_status": "provisional, not human/independent exact-take verified"
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "verified_isolated_steel": false,
+      "source_start_sample_44100": 837900,
+      "source_end_sample_44100": 1808100,
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 837900,
+      "source_end_sample_native": 1808100,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 970200
     },
     {
       "id": "steel-rag-cd10-9-22",
@@ -98,9 +113,21 @@
       "processing_seconds": 16.168029069900513,
       "peak_process_rss_bytes": 1658765312,
       "duration_seconds": 13.0,
-      "label": "Steel Guitar Rag steel-feature guitar-model estimate [9.0–22.0s]",
+      "label": "Steel Guitar Rag steel-feature guitar-model estimate [9–22s]",
       "classification_status": "automatic_instrument_estimate_unverified",
-      "player_attribution_status": "provisional, not human/independent exact-take verified"
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 396900,
+      "source_end_sample_native": 970200,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 573300
     },
     {
       "id": "texas-playboy-rag-cd07-14-12-32",
@@ -170,9 +197,21 @@
       "processing_seconds": 26.670302867889404,
       "peak_process_rss_bytes": 1658765312,
       "duration_seconds": 20.0,
-      "label": "Texas Playboy Rag steel-feature guitar-model estimate [12.0–32.0s]",
+      "label": "Texas Playboy Rag steel-feature guitar-model estimate [12–32s]",
       "classification_status": "automatic_instrument_estimate_unverified",
-      "player_attribution_status": "provisional, not human/independent exact-take verified"
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 529200,
+      "source_end_sample_native": 1411200,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 882000
     },
     {
       "id": "texas-playboy-rag-cd07-10-13-33",
@@ -242,9 +281,105 @@
       "processing_seconds": 14.130202770233154,
       "peak_process_rss_bytes": 1807695872,
       "duration_seconds": 20.0,
-      "label": "Texas Playboy Rag steel-feature guitar-model estimate [13.0–33.0s]",
+      "label": "Texas Playboy Rag steel-feature guitar-model estimate [13–33s]",
       "classification_status": "automatic_instrument_estimate_unverified",
-      "player_attribution_status": "provisional, not human/independent exact-take verified"
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 573300,
+      "source_end_sample_native": 1455300,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 882000
+    },
+    {
+      "id": "hometown-stomp-cd09-12-30",
+      "file": "steel/hometown-stomp-cd09-12-30-guitar-model-estimate.wav",
+      "source_id": "bw-43a56e39594deae3-9-03",
+      "source_sha256": "43a56e39594deae303bd65e4535ec63d00ad2062748de51f5961cf33c872180e",
+      "source_title": "Hometown Stomp",
+      "source_album": "San Antonio Rose [Box Set][CD09]",
+      "source_file": "9-03 Hometown Stomp.mp3",
+      "start_seconds": 12.0,
+      "end_seconds": 30.0,
+      "source_start_sample_44100": 529200,
+      "source_end_sample_44100": 1323000,
+      "performer_hypothesis": "Herb Remington, probable from same-source automatic spoken steel/player introduction",
+      "performer_verified": false,
+      "performer_recording_evidence": {
+        "basis": "Same-source unprompted ASR introduction explicitly hypothesizes Remington steel and Herb Remington playing it; not human words/player verification.",
+        "supporting_track_credit_url": "https://www.qobuz.com/gb-en/album/the-essential-bob-wills-and-his-texas-playboys-bob-wills-and-his-texas-playboys/0886444284714",
+        "local_take_match": "same local-source cue is primary context; commercial track19 lists Herb Remington steel but exact reissue/take match not independently verified"
+      },
+      "instrument_identity_status": "steel-feature hypothesis, not independently verified isolated steel",
+      "isolation_status": "targeted htdemucs_6s guitar-model estimate in selected feature passage; accompanying guitar/other leakage and artifacts may remain",
+      "model": "htdemucs_6s cached local CPU1 thread, shifts0 overlap.25 segment7.8",
+      "wav_sha256": "20fd41c6f751738ac53622a94c8d5ce8b9ba7c68c2f8afb023b41ec1ca2f14b0",
+      "sample_rate": 44100,
+      "frames": 793800,
+      "source_window_reason": "Feature-test window in named steel-feature recording; not a measured solo boundary and absence of recognized speech is not proof of a solo.",
+      "source_rms": 0.08871140331029892,
+      "guitar_source_rms_ratio": 0.7592428865130163,
+      "all_model_stem_rms": {
+        "drums": {
+          "rms": 0.014027669094502926,
+          "peak": 0.1874130219221115,
+          "sha256": "8dffec52cf3ec6962c3cced68560d307cd90915eeb5a4367b28848bb656933d8"
+        },
+        "bass": {
+          "rms": 0.009792103432118893,
+          "peak": 0.06901094317436218,
+          "sha256": "6a13b69dace3cbeffd3724617d0fbcea236f89f4fcfe4f7e94644fa9ff261c71"
+        },
+        "other": {
+          "rms": 0.0012451440561562777,
+          "peak": 0.0334903709590435,
+          "sha256": "f634f0f73afe7f9b87132f2cd97f74b7337b67cb5d4f85ee1689180ee4fe2d3d"
+        },
+        "vocals": {
+          "rms": 0.04592607170343399,
+          "peak": 0.43046674132347107,
+          "sha256": "97d60aa4cbc741f2e0a4bccb97edc4c8a39c4efe1a75ac7c3432723cc1da1143"
+        },
+        "guitar": {
+          "rms": 0.0673535019159317,
+          "peak": 0.4302859306335449,
+          "sha256": "20fd41c6f751738ac53622a94c8d5ce8b9ba7c68c2f8afb023b41ec1ca2f14b0"
+        },
+        "piano": {
+          "rms": 0.00011280032776994631,
+          "peak": 0.004510755185037851,
+          "sha256": "c4ff2c916d24b88d2b7b3d8fcc90109220f5c85cef539a513f27bbd8a66a6813"
+        }
+      },
+      "signal_acceptance": "finite and guitar estimate RMS >15% of original window RMS; technical floor only, not isolation purity",
+      "status": "candidate_test_ready",
+      "human_listening_reviewed": false,
+      "verified_isolated_steel": false,
+      "is_original_or_context_audio": false,
+      "processing_seconds": 41.524282932281494,
+      "peak_process_rss_bytes": 1234436096,
+      "label": "Hometown Stomp steel-feature guitar-model estimate [12–30s]",
+      "duration_seconds": 18.0,
+      "classification_status": "automatic_instrument_estimate_unverified",
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 529200,
+      "source_end_sample_native": 1323000,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 793800
     }
   ],
   "verified_isolated_steel": 0,
@@ -252,5 +387,7 @@
     "Only targeted guitar-model estimates from feature windows; never generic accompaniment passed off as isolated steel.",
     "Noel association is supported by label track credits but exact local take/player match unresolved.",
     "No raw or original-context audio is in delivery."
-  ]
+  ],
+  "steel_test_count": 5,
+  "human_auditory_reviews": 0
 }

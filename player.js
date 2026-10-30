@@ -16,16 +16,17 @@ function poolFor(category){const p=pools.get(category);p.configure(allCalls(),ca
 function refreshCounts(){
   const calls=allCalls(),occurrences=new Set(calls.map(c=>c.occurrence_id));
   const sig=poolFor('signature_aah_haa').bag.length,enc=poolFor('encouragement').bag.length,cue=poolFor('named_player_cue').bag.length;
-  $('#libraryCount').textContent=`${occurrences.size} distinct candidate occurrences · ${new Set(calls.map(c=>c.source_id)).size} source recordings`;
-  $('#progress').textContent='Library target: 100–200 distinct Bob calls';
+  const classified=calls.filter(c=>c.category!=='uncertain_vocal').length,uncertain=calls.length-classified;
+  $('#libraryCount').textContent=`${classified} call matches · ${new Set(calls.map(c=>c.source_id)).size} source recordings`;
+  $('#progress').textContent=`${occurrences.size} distinct extracts · ${uncertain} unclassified snippets · target 100–200 calls`;
   $('#signatureCount').textContent=`${sig} signature-call ${sig===1?'match':'matches'}`;
-  $('#otherCount').textContent=`${calls.filter(c=>c.category!=='signature_aah_haa').length} other candidates`;
+  $('#otherCount').textContent=`${enc+cue} encouragement / player-cue matches`;
   $('#reviewedCount').textContent=`${calls.filter(c=>c.review.status==='keep').length} kept in your review`;
   $('#signature').disabled=!sig;$('#encouragement').disabled=!enc;$('#playerCue').disabled=!cue;
 }
 function filtered(){
   const query=$('#search').value.trim().toLowerCase(),category=$('#category').value;
-  return allCalls().filter(c=>(category==='all'||c.category===category)&&(!$('#keptOnly').checked||c.review.status==='keep')&&(!query||`${c.label} ${c.source_title} ${c.source_album} ${c.id} ${c.phrase_asr_unverified||''}`.toLowerCase().includes(query)));
+  return allCalls().filter(c=>(category==='all'?c.category!=='uncertain_vocal':c.category===category)&&(!$('#keptOnly').checked||c.review.status==='keep')&&(!query||`${c.label} ${c.source_title} ${c.source_album} ${c.id} ${c.phrase_asr_unverified||''}`.toLowerCase().includes(query)));
 }
 function render(){
   refreshCounts();
@@ -42,7 +43,7 @@ async function playClip(c){
 function stop(){epoch++;document.querySelectorAll('audio').forEach(a=>a.pause());$('#status').textContent='Stopped.';}
 function random(category){const clip=poolFor(category).next();if(clip)playClip(clip);else $('#status').textContent='No clips in this call family yet.';return clip;}
 $('#signature').onclick=()=>random('signature_aah_haa');$('#encouragement').onclick=()=>random('encouragement');$('#playerCue').onclick=()=>random('named_player_cue');$('#stop').onclick=stop;
-$('#volume').oninput=()=>{audio.volume=Number($('#volume').value)};
+$('#volume').oninput=()=>{document.querySelectorAll('audio').forEach(a=>a.volume=Number($('#volume').value))};
 audio.addEventListener('ended',()=>{$('#status').textContent='Ready for the next call.'});
 $('#calls').addEventListener('click',e=>{
   const b=e.target.closest('button[data-action]');if(!b)return;
@@ -59,5 +60,6 @@ $('#saveReview').onclick=()=>{
 };
 const steel=Array.isArray(library.steel)?library.steel:library.steel?.clips||library.steel?.tests||[];
 $('#steel').innerHTML=steel.map(s=>`<article class="card"><span class="tag">Steel estimate</span><h3>${esc(s.label||s.title||s.id)}</h3><p>${esc(s.performer||s.player||'Player attribution in manifest')}<br>${esc(s.source_title||'')}</p><audio controls preload="none" src="${esc(s.file)}"></audio><a href="${esc(s.file)}" download>Download test WAV</a></article>`).join('')||'<p class="muted">Steel test extracts are being prepared.</p>';
+document.querySelectorAll('audio').forEach(a=>a.volume=Number($('#volume').value));
 window.addEventListener('pagehide',stop);render();
 window.bobLibraryDesk={poolFor,filtered,allCalls,playClip,stop,get active(){return active},get reviews(){return reviews}};
