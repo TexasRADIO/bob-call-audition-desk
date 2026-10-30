@@ -1,0 +1,31 @@
+{
+  "schema_version": "bb-bob-steel-tests-v3",
+  "steel_tests": [
+    {
+      "id": "steel-rag-cd02-19-41",
+      "file": "steel/steel-rag-cd02-19-41-guitar-model-estimate.wav",
+      "source_id": "bw-fb1f950082e029a9-2-05",
+      "source_sha256": "fb1f950082e029a9e312fb51c7aee58e975e8f455d46f0fd60b4883f67bffa9c",
+      "start_seconds": 19.0,
+      "end_seconds": 41.0,
+      "performer_hypothesis": "Leon McAuliffe, probable from same-source automatic spoken Leon introduction",
+      "performer_verified": false,
+      "instrument_identity_status": "steel-feature hypothesis, not independently verified isolated steel",
+      "isolation_status": "htdemucs_6s guitar estimate in selected feature passage; other instruments/artifacts may remain",
+      "model": "htdemucs_6s, CPU shifts0 overlap.25 segment7.8",
+      "wav_sha256": "0f71260ba327f506516f2db451ee918dd1f7d85ec5c7b4980dd8534c07e00b12",
+      "classification_evidence": [
+        "source title Steel Guitar Rag",
+        "same-source automatic introduction hypothesis names Leon at4.6–7.2s",
+        "not an accompaniment stem; guitar-target model output from22s feature probe"
+      ],
+      "human_listening_reviewed": false,
+      "reused_existing_estimate": true,
+      "is_original_or_context_audio": false
+    }
+  ],
+  "verified_isolated_steel": 0,
+  "notes": [
+    "Player/solo cleanliness not verified. Noel attribution pending evidence; do not infer from a title/date."
+  ]
+}
