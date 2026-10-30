@@ -2,50 +2,43 @@
 
 [Open the listening desk](https://texasradio.github.io/bob-call-audition-desk/).
 
-103 user-kept vocal extracts; 39 failed extractions excluded from usable pools.
-AAH HAA! and YEAH! shuffle kept occurrences before repeating. Yeah has eight
-kept short variants. Original review decisions and later browser choices are
-merged by review time. Reset returns to the imported decision.
+103 user-kept vocal extracts are available to the AAH HAA!, YEAH!, encouragement
+and player-cue pads. The signature pad has13 kept variants; Yeah has8. Each pad
+shuffles distinct occurrences before repeating. Your39 skips remain failed
+extractions and stay out of the usable pools. The library currently holds240
+call entries:103kept,39failed and98awaiting review.
 
-The latest expansion screens eight further local recordings and adds six call
-candidates for audition, three fiddle-feature estimates and two steel-feature
-estimates. The full test bench contains seven steel and three fiddle estimates.
-Keep/Fail decisions for these tests are included when exporting review notes.
+This update adds16 short vocal candidates, two steel feature tests and one
+fiddle feature test. The full instrumental bench has11steel and4fiddle estimates.
+Instrument/player identities and purity remain hypotheses unless reviewed.
+All unreviewed calls and feature tests stay out of usable random-call pools.
 
-214 approximate vocal/instrumental section markers cover 44 source recordings.
-These are search leads; verse/chorus, complete solo, chord/key and bar alignment
-are not verified. Six-source guitar/other model targets may contain leakage.
-Player and phrase hypotheses are retained in source details for correction.
+The vocal repair section compares29 alternate separations with their original
+failed isolated cuts. These are the same recorded occurrences, not29 new calls.
+Keep repair, Needs trim and Still fail export separately with the original IDs;
+none of these choices silently revives an original failed extraction.
 
-[Download the 103 kept calls](https://texasradio.github.io/bob-call-audition-desk/Bob-Wills-Deconstructed-kept-calls.zip).
-The tools.json index separates usable calls, pending tests, section markers and
-failed IDs. Original mixes and context audio are excluded. New browser reviews
-save locally; export review notes to send decisions back to the library owner.
+17 backing previews from6recordings retain pickup and release;17additional
+loop-only WAV downloads contain the exact marked body with3ms edge fades.
+Alternate stems and loop exports are not independent performances. Loop bars
+plays the body-only WAV. Keep full phrase, Needs trim and Fail/Skip are distinct
+review choices. No backing is yet approved for key/chord/full-phrase isolation.
 
-This site does not install or change instrument firmware.
+One Tulsa passage has a34-note, zero-transposition fit to the print-checked
+opening eight2/4bars of Cundell example5.15, at129.5BPM and95.99–103.40s in the
+local recording. This is note/boundary evidence; matrix/take and isolation
+approval remain separate. Other grid-derived phrase lengths require audition.
 
+523 approximate section markers cover102recordings. These map vocal passages,
+instrumental openings/endings and cue-supported handoffs. They are search leads;
+ASR alone cannot verify verse/chorus, full solo, chord/key or bar boundaries.
 
-The full296-recording pass is now running locally, starting with the252 recordings
-not previously screened for vocals. This publication adds15backing previews from
-five recordings, three short-call candidates and one8-bar steel-feature estimate.
-Backings include bass/drums and piano/rhythm alternatives. They are phrase
-candidates anchored to openings, vocal entrances or instrument handoffs, with
-pickup and release retained outside explicit loop-frame regions. Loop bars uses
-Web Audio loop points. Keep full phrase, Needs trim and Fail/Skip are distinct
-review decisions and are exported with the call review.
+[Download the103kept calls](https://texasradio.github.io/bob-call-audition-desk/Bob-Wills-Deconstructed-kept-calls.zip).
+The tools.json index separates usable calls, pending tests, repairs, backing
+previews, section markers and failed IDs. Reviews save in this browser; export
+review notes to return decisions. Original mixes and full internal stems are
+excluded from this site and ZIP.
 
-The whole-corpus goal remains in progress.15previews are not15independent musical
-performances; alternate stems of the same phrase share the source time range.
-Meter/downbeat/complete phrase identity and isolation quality still need audition.
-Low-margin metrical candidates are held internally for refinement. All103keeps
-and39failed vocal extractions retain their prior decisions. No full internal
-stems or original recordings are published.
-
-
-A further checked excerpt adds two backing alternatives and one steel extract
-for Take Me Back to Tulsa, bringing the backing bench to17previews. Its opening
-eight written2/4 bars match the manually pitch/rhythm-checked34-note control at
-129.5BPM without transposition, around95.99–103.40s in the local recording.
-The WAV retains the pickup and ends at that written boundary before the next
-steel phrase. The matching reference is Cundell example5.15, opening eight bars;
-recording-take metadata and audible isolation quality remain separate checks.
+The296-recording local separation/analysis queue remains active, prioritizing
+252recordings not previously screened for vocals. Technical candidates are not
+human approval. This site does not install or change instrument firmware.

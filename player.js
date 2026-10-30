@@ -57,7 +57,7 @@ $('#calls').addEventListener('click',e=>{
 });
 for(const id of ['search','category','keptOnly'])$('#'+id).addEventListener(id==='search'?'input':'change',render);
 $('#saveReview').onclick=()=>{
-  const data={phrase_reviews:window.BobPhraseDesk?.exportReviews()||[],feature_reviews:Object.entries(featureReviews).map(([id,review])=>({id,...review})),schema:'bb-bob-local-review/v1',exported_at:new Date().toISOString(),reviews:allCalls().filter(c=>c.review.status).map(c=>({id:c.id,...c.review,occurrence_id:c.occurrence_id}))};
+  const data={repair_reviews:window.BobRepairDesk?.exportReviews()||[],phrase_reviews:window.BobPhraseDesk?.exportReviews()||[],feature_reviews:Object.entries(featureReviews).map(([id,review])=>({id,...review})),schema:'bb-bob-local-review/v1',exported_at:new Date().toISOString(),reviews:allCalls().filter(c=>c.review.status).map(c=>({id:c.id,...c.review,occurrence_id:c.occurrence_id}))};
   const blob=new Blob([JSON.stringify(data,null,2)+'\n'],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Bob-call-review.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 };
 const featureStorageKey='bb-bob-feature-review-v1';
