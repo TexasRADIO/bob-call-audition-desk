@@ -40,3 +40,12 @@ Meter/downbeat/complete phrase identity and isolation quality still need auditio
 Low-margin metrical candidates are held internally for refinement. All103keeps
 and39failed vocal extractions retain their prior decisions. No full internal
 stems or original recordings are published.
+
+
+A further checked excerpt adds two backing alternatives and one steel extract
+for Take Me Back to Tulsa, bringing the backing bench to17previews. Its opening
+eight written2/4 bars match the manually pitch/rhythm-checked34-note control at
+129.5BPM without transposition, around95.99–103.40s in the local recording.
+The WAV retains the pickup and ends at that written boundary before the next
+steel phrase. The matching reference is Cundell example5.15, opening eight bars;
+recording-take metadata and audible isolation quality remain separate checks.
