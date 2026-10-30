@@ -23,3 +23,20 @@ failed IDs. Original mixes and context audio are excluded. New browser reviews
 save locally; export review notes to send decisions back to the library owner.
 
 This site does not install or change instrument firmware.
+
+
+The full296-recording pass is now running locally, starting with the252 recordings
+not previously screened for vocals. This publication adds15backing previews from
+five recordings, three short-call candidates and one8-bar steel-feature estimate.
+Backings include bass/drums and piano/rhythm alternatives. They are phrase
+candidates anchored to openings, vocal entrances or instrument handoffs, with
+pickup and release retained outside explicit loop-frame regions. Loop bars uses
+Web Audio loop points. Keep full phrase, Needs trim and Fail/Skip are distinct
+review decisions and are exported with the call review.
+
+The whole-corpus goal remains in progress.15previews are not15independent musical
+performances; alternate stems of the same phrase share the source time range.
+Meter/downbeat/complete phrase identity and isolation quality still need audition.
+Low-margin metrical candidates are held internally for refinement. All103keeps
+and39failed vocal extractions retain their prior decisions. No full internal
+stems or original recordings are published.

@@ -42,7 +42,7 @@ async function playClip(c){
   try{await audio.play();if(token!==epoch)return;$('#status').textContent='Playing separated vocal clip.';}
   catch(e){if(token===epoch)$('#status').textContent='Playback unavailable: '+e.message;}
 }
-function stop(){epoch++;document.querySelectorAll('audio').forEach(a=>a.pause());$('#status').textContent='Stopped.';}
+function stop(){epoch++;window.dispatchEvent(new Event('bob-stop-all'));document.querySelectorAll('audio').forEach(a=>a.pause());$('#status').textContent='Stopped.';}
 function random(category){const clip=poolFor(category).next();if(clip)playClip(clip);else $('#status').textContent='No clips in this call family yet.';return clip;}
 $('#yeah').onclick=()=>random('yeah');$('#signature').onclick=()=>random('signature_aah_haa');$('#encouragement').onclick=()=>random('encouragement');$('#playerCue').onclick=()=>random('named_player_cue');$('#stop').onclick=stop;
 $('#volume').oninput=()=>{document.querySelectorAll('audio').forEach(a=>a.volume=Number($('#volume').value))};
@@ -57,7 +57,7 @@ $('#calls').addEventListener('click',e=>{
 });
 for(const id of ['search','category','keptOnly'])$('#'+id).addEventListener(id==='search'?'input':'change',render);
 $('#saveReview').onclick=()=>{
-  const data={feature_reviews:Object.entries(featureReviews).map(([id,review])=>({id,...review})),schema:'bb-bob-local-review/v1',exported_at:new Date().toISOString(),reviews:allCalls().filter(c=>c.review.status).map(c=>({id:c.id,...c.review,occurrence_id:c.occurrence_id}))};
+  const data={phrase_reviews:window.BobPhraseDesk?.exportReviews()||[],feature_reviews:Object.entries(featureReviews).map(([id,review])=>({id,...review})),schema:'bb-bob-local-review/v1',exported_at:new Date().toISOString(),reviews:allCalls().filter(c=>c.review.status).map(c=>({id:c.id,...c.review,occurrence_id:c.occurrence_id}))};
   const blob=new Blob([JSON.stringify(data,null,2)+'\n'],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Bob-call-review.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 };
 const featureStorageKey='bb-bob-feature-review-v1';
