@@ -4,16 +4,18 @@
     100,
     200
   ],
-  "distinct_candidate_occurrences": 115,
+  "distinct_candidate_occurrences": 144,
   "automatic_category_counts": {
-    "signature_aah_haa": 3,
-    "encouragement": 35,
-    "named_player_cue": 18,
-    "uncertain_vocal": 59
+    "signature_aah_haa": 5,
+    "encouragement": 44,
+    "named_player_cue": 21,
+    "uncertain_vocal": 74
   },
   "verified_bob_call_occurrences": 0,
-  "new_candidate_occurrences": 108,
+  "new_candidate_occurrences": 137,
   "inherited_existing_estimates": 7,
+  "status": "growing_automatic_candidate_library",
+  "updated_unix": 1793395664.627546,
   "calls": [
     {
       "id": "call-f524bfdb8605c5a4",
@@ -212,6 +214,39 @@
       "processing": "local htdemucs vocal estimate; mono; 100 Hz 2-pole highpass; polyphase 22050 Hz; 8 ms edge fades; gain to lesser of peak .78 and RMS .17; PCM16"
     },
     {
+      "id": "call-6e386f610d42a28c",
+      "occurrence_id": "occ-bw-43721b3cd98cab8e-7-10-444528-511560",
+      "category": "signature_aah_haa",
+      "file": "calls/signature_aah_haa/call-6e386f610d42a28c.wav",
+      "label": "Ah -ha! [automatic hypothesis]",
+      "source_id": "bw-43721b3cd98cab8e-7-10",
+      "source_sha256": "43721b3cd98cab8e71a0d94907723532fb1282654e5a1f84f8c44a2869fdc9d1",
+      "source_title": "Texas Playboy Rag",
+      "source_album": "San Antonio Rose [Box Set][CD07]",
+      "source_file": "7-10 Texas Playboy Rag.mp3",
+      "start_seconds": 10.08,
+      "end_seconds": 11.6,
+      "source_start_sample_44100": 444528,
+      "source_end_sample_44100": 511560,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Ah -ha!",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.13138830661773682,
+        "energy_shape_cosine": 0.8825880289077759,
+        "combined_score": 0.6132282346487046,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en nonlexical vocalization hypothesis; words/speaker unverified"
+      ],
+      "sample_rate": 22050,
+      "frames": 33516,
+      "wav_sha256": "9d0b6e53c50db31319f0bf8bb131e0481bcf97b7d9ce111393ea0e7d266bce09",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-fd3bba48ab8c06ea",
       "occurrence_id": "occ-bw-d14afd028776d8c7-1-17-2653056-2687454",
       "category": "signature_aah_haa",
@@ -275,6 +310,39 @@
       "sample_rate": 22050,
       "frames": 15435,
       "wav_sha256": "b27d7e7efd06638ea101c913e115b2ab505a94fc4c7c027f4bb037bd73f8b95a",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-fe2c5fa54a366f1b",
+      "occurrence_id": "occ-bw-32c6465e152a9877-5-26-5733882-5785920",
+      "category": "signature_aah_haa",
+      "file": "calls/signature_aah_haa/call-fe2c5fa54a366f1b.wav",
+      "label": "uh -huh, [automatic hypothesis]",
+      "source_id": "bw-32c6465e152a9877-5-26",
+      "source_sha256": "32c6465e152a9877fba9f6baf9f4281e6a38222a7547da6104696b91a0344203",
+      "source_title": "Twin Guitar Special",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-26 Twin Guitar Special.mp3",
+      "start_seconds": 130.02,
+      "end_seconds": 131.2,
+      "source_start_sample_44100": 5733882,
+      "source_end_sample_44100": 5785920,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "uh -huh,",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.12469816207885742,
+        "energy_shape_cosine": 0.918511688709259,
+        "combined_score": 0.6157734721899033,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en nonlexical vocalization hypothesis; words/speaker unverified"
+      ],
+      "sample_rate": 22050,
+      "frames": 26019,
+      "wav_sha256": "d1803e35ac3845b9eca2f3294eb903fecf699e2b5ff2a16852f808c5fe435a24",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -410,6 +478,39 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-d091c8f3dd76b348",
+      "occurrence_id": "occ-bw-5f086d5abbd3537b-5-09-3684996-3804066",
+      "category": "named_player_cue",
+      "file": "calls/named_player_cue/call-d091c8f3dd76b348.wav",
+      "label": "Take it away, Leon, take it away. [automatic hypothesis]",
+      "source_id": "bw-5f086d5abbd3537b-5-09",
+      "source_sha256": "5f086d5abbd3537b6998f374be3c2702a56d100eeed03166b949eb5548fcd72e",
+      "source_title": "Blue Bonnet Rag",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-09 Blue Bonnet Rag.mp3",
+      "start_seconds": 83.56,
+      "end_seconds": 86.26,
+      "source_start_sample_44100": 3684996,
+      "source_end_sample_44100": 3804066,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Take it away, Leon, take it away.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.09693775326013565,
+        "energy_shape_cosine": 0.8325462341308594,
+        "combined_score": 0.5910804802551866,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en named-player-like wording, not confirmed words/player"
+      ],
+      "sample_rate": 22050,
+      "frames": 59535,
+      "wav_sha256": "9fc48dcb98be3f72fcf55b301bbee4d3960e2ae90212441c54fdda710716e662",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-e8668b5568b2f881",
       "occurrence_id": "occ-bw-f84b5b9242cb27b1-1-18-2532222-2612484",
       "category": "named_player_cue",
@@ -473,6 +574,39 @@
       "sample_rate": 22050,
       "frames": 40572,
       "wav_sha256": "ce2f928b9bd781260f1ff67fcd08f34db8bf449b728e4f8d98fd0d0f6f13b349",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-1f56892cdda03d48",
+      "occurrence_id": "occ-bw-5f086d5abbd3537b-5-09-4073958-4252122",
+      "category": "named_player_cue",
+      "file": "calls/named_player_cue/call-1f56892cdda03d48.wav",
+      "label": "Brother Louis Terny, yes Louis. [automatic hypothesis]",
+      "source_id": "bw-5f086d5abbd3537b-5-09",
+      "source_sha256": "5f086d5abbd3537b6998f374be3c2702a56d100eeed03166b949eb5548fcd72e",
+      "source_title": "Blue Bonnet Rag",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-09 Blue Bonnet Rag.mp3",
+      "start_seconds": 92.38,
+      "end_seconds": 96.42,
+      "source_start_sample_44100": 4073958,
+      "source_end_sample_44100": 4252122,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Brother Louis Terny, yes Louis.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": -0.0211640615016222,
+        "energy_shape_cosine": 0.7397512197494507,
+        "combined_score": 0.5269679568242281,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en named-player-like wording, not confirmed words/player"
+      ],
+      "sample_rate": 22050,
+      "frames": 89082,
+      "wav_sha256": "e8f4ecd638efbf979d8e713778c8ddc7fc008c960cc739f39379fe3ae07cfa94",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -641,6 +775,39 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-efd8feb3c778733e",
+      "occurrence_id": "occ-bw-32c6465e152a9877-5-26-3092292-3150504",
+      "category": "named_player_cue",
+      "file": "calls/named_player_cue/call-efd8feb3c778733e.wav",
+      "label": "Now it's Mr. Strickler. [automatic hypothesis]",
+      "source_id": "bw-32c6465e152a9877-5-26",
+      "source_sha256": "32c6465e152a9877fba9f6baf9f4281e6a38222a7547da6104696b91a0344203",
+      "source_title": "Twin Guitar Special",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-26 Twin Guitar Special.mp3",
+      "start_seconds": 70.12,
+      "end_seconds": 71.44,
+      "source_start_sample_44100": 3092292,
+      "source_end_sample_44100": 3150504,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Now it's Mr. Strickler.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.02967357262969017,
+        "energy_shape_cosine": 0.7913027405738831,
+        "combined_score": 0.5563066794537008,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en named-player-like wording, not confirmed words/player"
+      ],
+      "sample_rate": 22050,
+      "frames": 29106,
+      "wav_sha256": "e07ae0d6f3e3b8f0a863cae4b6a2ceaafc095bad2a4a87cbd89a7308fc893b2f",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-9e30b517eeb384a9",
       "occurrence_id": "occ-bw-f84b5b9242cb27b1-1-18-4010454-4118940",
       "category": "named_player_cue",
@@ -770,6 +937,39 @@
       "sample_rate": 22050,
       "frames": 54684,
       "wav_sha256": "77e37636b851cde164c431530b179708dbc1dadf84f966f87e6b75969b5bd7f1",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-f34eceb77acbe3c2",
+      "occurrence_id": "occ-bw-a35a1ce0ae5afcf2-6-04-4840416-4867758",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-f34eceb77acbe3c2.wav",
+      "label": "Yeah. [automatic hypothesis]",
+      "source_id": "bw-a35a1ce0ae5afcf2-6-04",
+      "source_sha256": "a35a1ce0ae5afcf20da77a65e13cc22cbc9900c4816bd46549de995e5f392e85",
+      "source_title": "Bob Wills Stomp",
+      "source_album": "San Antonio Rose [Box Set][CD06]",
+      "source_file": "6-04 Bob Wills Stomp.mp3",
+      "start_seconds": 109.76,
+      "end_seconds": 110.38,
+      "source_start_sample_44100": 4840416,
+      "source_end_sample_44100": 4867758,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Yeah.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.2181246429681778,
+        "energy_shape_cosine": 0.8934236168861389,
+        "combined_score": 0.6517165157943964,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 13671,
+      "wav_sha256": "4c435093a448e7d5d319e3453fc0bf42f96b55a8fd86b8eff0fe2e9106ac5b3f",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -1136,6 +1336,39 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-ae415653562565c4",
+      "occurrence_id": "occ-bw-5f086d5abbd3537b-5-09-1742832-1962450",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-ae415653562565c4.wav",
+      "label": "Well, well, if it isn't all now, let's swing out, brother, swing out. [automatic hypothesis]",
+      "source_id": "bw-5f086d5abbd3537b-5-09",
+      "source_sha256": "5f086d5abbd3537b6998f374be3c2702a56d100eeed03166b949eb5548fcd72e",
+      "source_title": "Blue Bonnet Rag",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-09 Blue Bonnet Rag.mp3",
+      "start_seconds": 39.52,
+      "end_seconds": 44.5,
+      "source_start_sample_44100": 1742832,
+      "source_end_sample_44100": 1962450,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Well, well, if it isn't all now, let's swing out, brother, swing out.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.012123853899538517,
+        "energy_shape_cosine": 0.8461723327636719,
+        "combined_score": 0.5570784878218547,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 109809,
+      "wav_sha256": "05934f5e69c7d80887988b8586bfb6b387ff4d119192fec3b38220b6046155ae",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-5da0e2568300b332",
       "occurrence_id": "occ-bw-c7aeda8c0d9c8348-10-01-3768786-3921372",
       "category": "encouragement",
@@ -1199,6 +1432,72 @@
       "sample_rate": 22050,
       "frames": 59976,
       "wav_sha256": "316135c8400a5e4267e4fd92271efa8928467bcc51db49545157b6ebce2f36c5",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-a57f1e90e8e247e5",
+      "occurrence_id": "occ-bw-5f086d5abbd3537b-5-09-4666662-4807782",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-a57f1e90e8e247e5.wav",
+      "label": "Ah! Ah! Yeah! [automatic hypothesis]",
+      "source_id": "bw-5f086d5abbd3537b-5-09",
+      "source_sha256": "5f086d5abbd3537b6998f374be3c2702a56d100eeed03166b949eb5548fcd72e",
+      "source_title": "Blue Bonnet Rag",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-09 Blue Bonnet Rag.mp3",
+      "start_seconds": 105.82,
+      "end_seconds": 109.02,
+      "source_start_sample_44100": 4666662,
+      "source_end_sample_44100": 4807782,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Ah! Ah! Yeah!",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.10088495910167694,
+        "energy_shape_cosine": 0.49203211069107056,
+        "combined_score": 0.5416809242218733,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 70560,
+      "wav_sha256": "6ad8a4ac5d0fd101597fbdf1948f9699e988c67fda124efdaf8f436be150abd4",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-f21e343616c11f6e",
+      "occurrence_id": "occ-bw-32c6465e152a9877-5-26-3170790-3219300",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-f21e343616c11f6e.wav",
+      "label": "Come on here, Al. [automatic hypothesis]",
+      "source_id": "bw-32c6465e152a9877-5-26",
+      "source_sha256": "32c6465e152a9877fba9f6baf9f4281e6a38222a7547da6104696b91a0344203",
+      "source_title": "Twin Guitar Special",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-26 Twin Guitar Special.mp3",
+      "start_seconds": 71.9,
+      "end_seconds": 73.0,
+      "source_start_sample_44100": 3170790,
+      "source_end_sample_44100": 3219300,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Come on here, Al.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": -0.007653392851352692,
+        "energy_shape_cosine": 0.9368318319320679,
+        "combined_score": 0.5622720828279852,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 24255,
+      "wav_sha256": "812c643e67d7878357447ef247745b2887b52d181711022d5b03a61b4e61181e",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -1334,6 +1633,39 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-0c034e543c627071",
+      "occurrence_id": "occ-bw-43721b3cd98cab8e-7-10-3071124-3147858",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-0c034e543c627071.wav",
+      "label": "Friends, let's go. [automatic hypothesis]",
+      "source_id": "bw-43721b3cd98cab8e-7-10",
+      "source_sha256": "43721b3cd98cab8e71a0d94907723532fb1282654e5a1f84f8c44a2869fdc9d1",
+      "source_title": "Texas Playboy Rag",
+      "source_album": "San Antonio Rose [Box Set][CD07]",
+      "source_file": "7-10 Texas Playboy Rag.mp3",
+      "start_seconds": 69.64,
+      "end_seconds": 71.38,
+      "source_start_sample_44100": 3071124,
+      "source_end_sample_44100": 3147858,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Friends, let's go.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": -0.04790428280830383,
+        "energy_shape_cosine": 0.7867803573608398,
+        "combined_score": 0.5226577334105968,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 38367,
+      "wav_sha256": "cf17f6f8a9f3dfac08d04f0b17e2162cfcf8161bee30c6f9d3fdbdd65ce5e2d6",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-e6788d5df81bd52e",
       "occurrence_id": "occ-bw-0aeca0d882538048-3-08-2728026-2800350",
       "category": "encouragement",
@@ -1400,6 +1732,39 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-516d0094cfa96b49",
+      "occurrence_id": "occ-bw-32c6465e152a9877-5-26-6049638-6151950",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-516d0094cfa96b49.wav",
+      "label": "All right! [automatic hypothesis]",
+      "source_id": "bw-32c6465e152a9877-5-26",
+      "source_sha256": "32c6465e152a9877fba9f6baf9f4281e6a38222a7547da6104696b91a0344203",
+      "source_title": "Twin Guitar Special",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-26 Twin Guitar Special.mp3",
+      "start_seconds": 137.18,
+      "end_seconds": 139.5,
+      "source_start_sample_44100": 6049638,
+      "source_end_sample_44100": 6151950,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "All right!",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": -0.010717645287513733,
+        "energy_shape_cosine": 0.5754985809326172,
+        "combined_score": 0.5067697878926992,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 51156,
+      "wav_sha256": "c6d4124f2ee11083b0daaa8b753e8345c2396b6eae7138dbb38d2df9a361f3e9",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-831ab14fc69b8c82",
       "occurrence_id": "occ-bw-92f1a101e56bdf79-2-27-4118940-4229190",
       "category": "encouragement",
@@ -1463,6 +1828,39 @@
       "sample_rate": 22050,
       "frames": 26019,
       "wav_sha256": "183bbd483a9ad1f8f770a8c00995608242731752a6d50c36c6fb9fafc6b30ed6",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-60105bad90d9079d",
+      "occurrence_id": "occ-bw-23a6929c29b4e567-5-13-2879730-3055248",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-60105bad90d9079d.wav",
+      "label": "Look what you're doing to me, yeah. [automatic hypothesis]",
+      "source_id": "bw-23a6929c29b4e567-5-13",
+      "source_sha256": "23a6929c29b4e567f1e7bc46fb957ec4efac8a32382f5d8a5563dc2622af2c5b",
+      "source_title": "Big Beaver",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-13 Big Beaver.mp3",
+      "start_seconds": 65.3,
+      "end_seconds": 69.28,
+      "source_start_sample_44100": 2879730,
+      "source_end_sample_44100": 3055248,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Look what you're doing to me, yeah.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": -0.049567367881536484,
+        "energy_shape_cosine": 0.7177098989486694,
+        "combined_score": 0.5115903534926474,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 87759,
+      "wav_sha256": "383368db1b2133d64e523316c638f2761f3aba8769d891c2f75d297d264ff73c",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -1598,6 +1996,39 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-83b06f39fe9eb9a5",
+      "occurrence_id": "occ-bw-23a6929c29b4e567-5-13-4208022-4342086",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-83b06f39fe9eb9a5.wav",
+      "label": "All right. [automatic hypothesis]",
+      "source_id": "bw-23a6929c29b4e567-5-13",
+      "source_sha256": "23a6929c29b4e567f1e7bc46fb957ec4efac8a32382f5d8a5563dc2622af2c5b",
+      "source_title": "Big Beaver",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-13 Big Beaver.mp3",
+      "start_seconds": 95.42,
+      "end_seconds": 98.46,
+      "source_start_sample_44100": 4208022,
+      "source_end_sample_44100": 4342086,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "All right.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.07692769169807434,
+        "energy_shape_cosine": 0.7001335024833679,
+        "combined_score": 0.5627142943441867,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 67032,
+      "wav_sha256": "a3a506716822a84ac800e58e0983b0b5a0aff007e9c30810aac5155871698c74",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-93c78586d37396b0",
       "occurrence_id": "occ-bw-d14afd028776d8c7-1-17-6410376-6436836",
       "category": "encouragement",
@@ -1628,6 +2059,39 @@
       "sample_rate": 22050,
       "frames": 13230,
       "wav_sha256": "90752548e37675cfcd786e19799adfc011d4aab630b09cec3e96100a3a954c1c",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-c311cea4560f79a6",
+      "occurrence_id": "occ-bw-32c6465e152a9877-5-26-799092-915516",
+      "category": "encouragement",
+      "file": "calls/encouragement/call-c311cea4560f79a6.wav",
+      "label": "Swing out boys, swing out. [automatic hypothesis]",
+      "source_id": "bw-32c6465e152a9877-5-26",
+      "source_sha256": "32c6465e152a9877fba9f6baf9f4281e6a38222a7547da6104696b91a0344203",
+      "source_title": "Twin Guitar Special",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-26 Twin Guitar Special.mp3",
+      "start_seconds": 18.12,
+      "end_seconds": 20.76,
+      "source_start_sample_44100": 799092,
+      "source_end_sample_44100": 915516,
+      "classification_status": "automatic_hypothesis_unverified",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Swing out boys, swing out.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.05312550067901611,
+        "energy_shape_cosine": 0.8081638216972351,
+        "combined_score": 0.5688029110431672,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "Whisper small.en encouragement-like wording; may be sung/misrecognized"
+      ],
+      "sample_rate": 22050,
+      "frames": 58212,
+      "wav_sha256": "662bf8ab5b9e7f0d23c187b4ae8209dc5f1f451a9b922c8b365c19274c20450d",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -1829,6 +2293,40 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-23184823db432042",
+      "occurrence_id": "occ-bw-43721b3cd98cab8e-7-10-22491-105840",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-23184823db432042.wav",
+      "label": "Here's those boys again. [automatic hypothesis]",
+      "source_id": "bw-43721b3cd98cab8e-7-10",
+      "source_sha256": "43721b3cd98cab8e71a0d94907723532fb1282654e5a1f84f8c44a2869fdc9d1",
+      "source_title": "Texas Playboy Rag",
+      "source_album": "San Antonio Rose [Box Set][CD07]",
+      "source_file": "7-10 Texas Playboy Rag.mp3",
+      "start_seconds": 0.51,
+      "end_seconds": 2.4,
+      "source_start_sample_44100": 22491,
+      "source_end_sample_44100": 105840,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Here's those boys again.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.12713977694511414,
+        "energy_shape_cosine": 0.7104443311691284,
+        "combined_score": 0.5856010548770427,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 41675,
+      "wav_sha256": "3342557ac58a7c0d17d02ff50f31616a52982c778ec8d756c70793e236877a50",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-d60b0da6b39675a4",
       "occurrence_id": "occ-bw-704fe19db57404dc-7-20-1909971-1988028",
       "category": "uncertain_vocal",
@@ -1897,6 +2395,40 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-2647d09e28da61aa",
+      "occurrence_id": "occ-bw-32c6465e152a9877-5-26-6970887-7001316",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-2647d09e28da61aa.wav",
+      "label": "No, die. [automatic hypothesis]",
+      "source_id": "bw-32c6465e152a9877-5-26",
+      "source_sha256": "32c6465e152a9877fba9f6baf9f4281e6a38222a7547da6104696b91a0344203",
+      "source_title": "Twin Guitar Special",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-26 Twin Guitar Special.mp3",
+      "start_seconds": 158.07,
+      "end_seconds": 158.76,
+      "source_start_sample_44100": 6970887,
+      "source_end_sample_44100": 7001316,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "No, die.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": -0.01636512391269207,
+        "energy_shape_cosine": 0.8680418729782104,
+        "combined_score": 0.5482511032838374,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 15215,
+      "wav_sha256": "0ac63dbc4c8d27da649fee8e5ea6358181308c2911089263a839eee0b0af2ff6",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-28aab632298ba6fb",
       "occurrence_id": "occ-bw-704fe19db57404dc-7-20-3400551-3493602",
       "category": "uncertain_vocal",
@@ -1962,6 +2494,40 @@
       "sample_rate": 22050,
       "frames": 20948,
       "wav_sha256": "0228216fb8ab0e3dbc230d73373dce4d1f2dbb535b6a326dfa8fe5d7ab04ed37",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-c271f1805e4b67f1",
+      "occurrence_id": "occ-bw-43721b3cd98cab8e-7-10-2766393-2829456",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-c271f1805e4b67f1.wav",
+      "label": "Ah-ho! [automatic hypothesis]",
+      "source_id": "bw-43721b3cd98cab8e-7-10",
+      "source_sha256": "43721b3cd98cab8e71a0d94907723532fb1282654e5a1f84f8c44a2869fdc9d1",
+      "source_title": "Texas Playboy Rag",
+      "source_album": "San Antonio Rose [Box Set][CD07]",
+      "source_file": "7-10 Texas Playboy Rag.mp3",
+      "start_seconds": 62.73,
+      "end_seconds": 64.16,
+      "source_start_sample_44100": 2766393,
+      "source_end_sample_44100": 2829456,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Ah-ho!",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.17774266004562378,
+        "energy_shape_cosine": 0.7860415577888489,
+        "combined_score": 0.6184468641877174,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 31532,
+      "wav_sha256": "4aed5f62fd124b13ee0f1945d55e92be29b57bbd6f964473be00241ac1da114a",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -2373,6 +2939,40 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-78dceeab7e7e073e",
+      "occurrence_id": "occ-bw-43721b3cd98cab8e-7-10-4959045-5000940",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-78dceeab7e7e073e.wav",
+      "label": "Ah! [automatic hypothesis]",
+      "source_id": "bw-43721b3cd98cab8e-7-10",
+      "source_sha256": "43721b3cd98cab8e71a0d94907723532fb1282654e5a1f84f8c44a2869fdc9d1",
+      "source_title": "Texas Playboy Rag",
+      "source_album": "San Antonio Rose [Box Set][CD07]",
+      "source_file": "7-10 Texas Playboy Rag.mp3",
+      "start_seconds": 112.45,
+      "end_seconds": 113.4,
+      "source_start_sample_44100": 4959045,
+      "source_end_sample_44100": 5000940,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Ah!",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.14351338148117065,
+        "energy_shape_cosine": 0.9129369258880615,
+        "combined_score": 0.6229337260127068,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 20948,
+      "wav_sha256": "f17b145b4eb8635423e61d88ce116c78bdc215f6fa46e105f0695da480aaf650",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-20fd9ee0d366f087",
       "occurrence_id": "occ-bw-f56ae365ca065a8a-5-28-5242167-5405778",
       "category": "uncertain_vocal",
@@ -2574,6 +3174,74 @@
       "sample_rate": 22050,
       "frames": 67253,
       "wav_sha256": "6e61eee40c9929553b85c557de0f5fb80681f9eb7d56a575d3830fc1f6369854",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-1611920248f6fedf",
+      "occurrence_id": "occ-bw-32c6465e152a9877-5-26-2389779-2414916",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-1611920248f6fedf.wav",
+      "label": "Unverified short vocal event [automatic hypothesis]",
+      "source_id": "bw-32c6465e152a9877-5-26",
+      "source_sha256": "32c6465e152a9877fba9f6baf9f4281e6a38222a7547da6104696b91a0344203",
+      "source_title": "Twin Guitar Special",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-26 Twin Guitar Special.mp3",
+      "start_seconds": 54.19,
+      "end_seconds": 54.76,
+      "source_start_sample_44100": 2389779,
+      "source_end_sample_44100": 2414916,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "unknown",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.1023709699511528,
+        "energy_shape_cosine": 0.8202147483825684,
+        "combined_score": 0.5915398744866252,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 12569,
+      "wav_sha256": "b0077487d8eb5ecd5debb84379d3dd684d70746e9ee22d1ba7760cb4e96352c4",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-aefd5200c302a9db",
+      "occurrence_id": "occ-bw-a35a1ce0ae5afcf2-6-04-4724433-4830714",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-aefd5200c302a9db.wav",
+      "label": "Oh, swing hard, Desi. [automatic hypothesis]",
+      "source_id": "bw-a35a1ce0ae5afcf2-6-04",
+      "source_sha256": "a35a1ce0ae5afcf20da77a65e13cc22cbc9900c4816bd46549de995e5f392e85",
+      "source_title": "Bob Wills Stomp",
+      "source_album": "San Antonio Rose [Box Set][CD06]",
+      "source_file": "6-04 Bob Wills Stomp.mp3",
+      "start_seconds": 107.13,
+      "end_seconds": 109.54,
+      "source_start_sample_44100": 4724433,
+      "source_end_sample_44100": 4830714,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Oh, swing hard, Desi.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.19658765196800232,
+        "energy_shape_cosine": 0.8755835294723511,
+        "combined_score": 0.6398872815072536,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 53141,
+      "wav_sha256": "d89a0d414183f2b268ef944a0f3c3d02a139ed8b22f2e1159c0129f4644c6e81",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -2781,6 +3449,40 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-b7b91569bb5abfb1",
+      "occurrence_id": "occ-bw-32c6465e152a9877-5-26-4597425-4668426",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-b7b91569bb5abfb1.wav",
+      "label": "Oh, I didn't say it, sir, I said, Louis, play it, boy, play it. [automatic hypothesis]",
+      "source_id": "bw-32c6465e152a9877-5-26",
+      "source_sha256": "32c6465e152a9877fba9f6baf9f4281e6a38222a7547da6104696b91a0344203",
+      "source_title": "Twin Guitar Special",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-26 Twin Guitar Special.mp3",
+      "start_seconds": 104.25,
+      "end_seconds": 105.86,
+      "source_start_sample_44100": 4597425,
+      "source_end_sample_44100": 4668426,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Oh, I didn't say it, sir, I said, Louis, play it, boy, play it.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.04846931993961334,
+        "energy_shape_cosine": 0.7568295001983643,
+        "combined_score": 0.5591238860040904,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 35501,
+      "wav_sha256": "2cbd3f467eb62f681e358b241cb828ffc44450a7d990281a0c2ad17c23557a2e",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-adac88036d0f9dff",
       "occurrence_id": "occ-bw-34c61a8bcc0b872f-8-23-7423353-7469658",
       "category": "uncertain_vocal",
@@ -2812,6 +3514,40 @@
       "sample_rate": 22050,
       "frames": 23153,
       "wav_sha256": "0f9c052469f05451641e6ee0674167a187bed70cf53105bc8c21fef769c8bdb2",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-61b1bacdb5519ca0",
+      "occurrence_id": "occ-bw-23a6929c29b4e567-5-13-1465443-1492344",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-61b1bacdb5519ca0.wav",
+      "label": "Unverified short vocal event [automatic hypothesis]",
+      "source_id": "bw-23a6929c29b4e567-5-13",
+      "source_sha256": "23a6929c29b4e567f1e7bc46fb957ec4efac8a32382f5d8a5563dc2622af2c5b",
+      "source_title": "Big Beaver",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-13 Big Beaver.mp3",
+      "start_seconds": 33.23,
+      "end_seconds": 33.84,
+      "source_start_sample_44100": 1465443,
+      "source_end_sample_44100": 1492344,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "unknown",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.012401592917740345,
+        "energy_shape_cosine": 0.8896684646606445,
+        "combined_score": 0.5637209466891363,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 13451,
+      "wav_sha256": "74d3c270381518d331a3e6f01542215574beca72893cdd646416eadef0c5d2d8",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -2883,6 +3619,40 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-cc733fb07c273b93",
+      "occurrence_id": "occ-bw-a35a1ce0ae5afcf2-6-04-1229067-1293012",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-cc733fb07c273b93.wav",
+      "label": "Unverified short vocal event [automatic hypothesis]",
+      "source_id": "bw-a35a1ce0ae5afcf2-6-04",
+      "source_sha256": "a35a1ce0ae5afcf20da77a65e13cc22cbc9900c4816bd46549de995e5f392e85",
+      "source_title": "Bob Wills Stomp",
+      "source_album": "San Antonio Rose [Box Set][CD06]",
+      "source_file": "6-04 Bob Wills Stomp.mp3",
+      "start_seconds": 27.87,
+      "end_seconds": 29.32,
+      "source_start_sample_44100": 1229067,
+      "source_end_sample_44100": 1293012,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "unknown",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.16783948242664337,
+        "energy_shape_cosine": 0.8309532403945923,
+        "combined_score": 0.6209747660905123,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 31973,
+      "wav_sha256": "5da1e776e608d0bb399e49aeadc6d6fade64d4f805690171afae21d52e323ff1",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-6da6ed8ad834125e",
       "occurrence_id": "occ-bw-fb1f950082e029a9-2-05-3579597-3635604",
       "category": "uncertain_vocal",
@@ -2951,6 +3721,40 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-65993d597e347dd2",
+      "occurrence_id": "occ-bw-5f086d5abbd3537b-5-09-4477473-4548474",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-65993d597e347dd2.wav",
+      "label": "Off it, little man. [automatic hypothesis]",
+      "source_id": "bw-5f086d5abbd3537b-5-09",
+      "source_sha256": "5f086d5abbd3537b6998f374be3c2702a56d100eeed03166b949eb5548fcd72e",
+      "source_title": "Blue Bonnet Rag",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-09 Blue Bonnet Rag.mp3",
+      "start_seconds": 101.53,
+      "end_seconds": 103.14,
+      "source_start_sample_44100": 4477473,
+      "source_end_sample_44100": 4548474,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Off it, little man.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.17557653784751892,
+        "energy_shape_cosine": 0.7841886281967163,
+        "combined_score": 0.617248322814703,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 35501,
+      "wav_sha256": "3682e9464dd78fc4a8ea595538cd95cef1f7af881a9fa12be999b0ba70463c3b",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-06a41f6436b0fefa",
       "occurrence_id": "occ-bw-f84b5b9242cb27b1-1-18-5510295-5550426",
       "category": "uncertain_vocal",
@@ -2982,6 +3786,40 @@
       "sample_rate": 22050,
       "frames": 20066,
       "wav_sha256": "c11235e255dbee103f5cd72a1dbeffad554fdbe58d328ff8deb42c85a6569aa9",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-010d93f808c45bca",
+      "occurrence_id": "occ-bw-23a6929c29b4e567-5-13-100989-138474",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-010d93f808c45bca.wav",
+      "label": "Unverified short vocal event [automatic hypothesis]",
+      "source_id": "bw-23a6929c29b4e567-5-13",
+      "source_sha256": "23a6929c29b4e567f1e7bc46fb957ec4efac8a32382f5d8a5563dc2622af2c5b",
+      "source_title": "Big Beaver",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-13 Big Beaver.mp3",
+      "start_seconds": 2.29,
+      "end_seconds": 3.14,
+      "source_start_sample_44100": 100989,
+      "source_end_sample_44100": 138474,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "unknown",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.17906580865383148,
+        "energy_shape_cosine": 0.9543449878692627,
+        "combined_score": 0.6442547168582677,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 18743,
+      "wav_sha256": "dd9076cb503d9518f7cb562e498f9203227d79ba464a2e1a2a57e8e26114565b",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -3019,6 +3857,40 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-d12509878c6c7656",
+      "occurrence_id": "occ-bw-23a6929c29b4e567-5-13-6721281-6845202",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-d12509878c6c7656.wav",
+      "label": "Unverified short vocal event [automatic hypothesis]",
+      "source_id": "bw-23a6929c29b4e567-5-13",
+      "source_sha256": "23a6929c29b4e567f1e7bc46fb957ec4efac8a32382f5d8a5563dc2622af2c5b",
+      "source_title": "Big Beaver",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-13 Big Beaver.mp3",
+      "start_seconds": 152.41,
+      "end_seconds": 155.22,
+      "source_start_sample_44100": 6721281,
+      "source_end_sample_44100": 6845202,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "unknown",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.0553780272603035,
+        "energy_shape_cosine": 0.8957167863845825,
+        "combined_score": 0.5828931795433163,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 61961,
+      "wav_sha256": "8bd0779a0838dde3d7c11ea1049a72b884eb0eb154e4966f775189dcdf4b652b",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-4fdeadb3be8b7466",
       "occurrence_id": "occ-bw-0f246451771e4044-1-03-4801167-4895982",
       "category": "uncertain_vocal",
@@ -3050,6 +3922,40 @@
       "sample_rate": 22050,
       "frames": 47407,
       "wav_sha256": "fa9068f78fa3ae0c10b17926e1ee417f10773f94d98b48a884373ad072a7567c",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-a104722768f68bf3",
+      "occurrence_id": "occ-bw-5f086d5abbd3537b-5-09-216531-275184",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-a104722768f68bf3.wav",
+      "label": "Ah-ha! [automatic hypothesis]",
+      "source_id": "bw-5f086d5abbd3537b-5-09",
+      "source_sha256": "5f086d5abbd3537b6998f374be3c2702a56d100eeed03166b949eb5548fcd72e",
+      "source_title": "Blue Bonnet Rag",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-09 Blue Bonnet Rag.mp3",
+      "start_seconds": 4.91,
+      "end_seconds": 6.24,
+      "source_start_sample_44100": 216531,
+      "source_end_sample_44100": 275184,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "Ah-ha!",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.11410675942897797,
+        "energy_shape_cosine": 0.8539280891418457,
+        "combined_score": 0.6015845861285924,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 29327,
+      "wav_sha256": "49a7f8040bf4ab77ace8e044923cd8d1dad6c604d5fe7c84ec9d059d6e84c27d",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -3291,6 +4197,40 @@
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
+      "id": "call-94bb483a9ce3b7c4",
+      "occurrence_id": "occ-bw-5f086d5abbd3537b-5-09-3293829-3326022",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-94bb483a9ce3b7c4.wav",
+      "label": "Unverified short vocal event [automatic hypothesis]",
+      "source_id": "bw-5f086d5abbd3537b-5-09",
+      "source_sha256": "5f086d5abbd3537b6998f374be3c2702a56d100eeed03166b949eb5548fcd72e",
+      "source_title": "Blue Bonnet Rag",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-09 Blue Bonnet Rag.mp3",
+      "start_seconds": 74.69,
+      "end_seconds": 75.42,
+      "source_start_sample_44100": 3293829,
+      "source_end_sample_44100": 3326022,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "unknown",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.06644776463508606,
+        "energy_shape_cosine": 0.8454060554504395,
+        "combined_score": 0.5800512082874775,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 16097,
+      "wav_sha256": "399fb447fb32a000b4dfeb096125d0cfc5635e511c72a80514d092fb77c29a5d",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
       "id": "call-af26be27069d34ef",
       "occurrence_id": "occ-bw-cebdbd6c19a3126f-3-03-5133681-5180868",
       "category": "uncertain_vocal",
@@ -3458,6 +4398,40 @@
       "sample_rate": 22050,
       "frames": 20948,
       "wav_sha256": "48fdf62a1bebde9a86300a1b04305d3f59722d96d9f7e2fe70b36d5042ca28dc",
+      "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
+    },
+    {
+      "id": "call-35f6f1a5fb6e7042",
+      "occurrence_id": "occ-bw-a35a1ce0ae5afcf2-6-04-3119193-3259872",
+      "category": "uncertain_vocal",
+      "file": "calls/uncertain_vocal/call-35f6f1a5fb6e7042.wav",
+      "label": "That reason, I say, go west, swing out, Leon, swing out, ah, yes, yes, ah. [automatic hypothesis]",
+      "source_id": "bw-a35a1ce0ae5afcf2-6-04",
+      "source_sha256": "a35a1ce0ae5afcf20da77a65e13cc22cbc9900c4816bd46549de995e5f392e85",
+      "source_title": "Bob Wills Stomp",
+      "source_album": "San Antonio Rose [Box Set][CD06]",
+      "source_file": "6-04 Bob Wills Stomp.mp3",
+      "start_seconds": 70.73,
+      "end_seconds": 73.92,
+      "source_start_sample_44100": 3119193,
+      "source_end_sample_44100": 3259872,
+      "classification_status": "uncertain_requires_listening",
+      "speaker_confidence": "unverified; bandleader context/ASR/template clues only",
+      "phrase_asr_unverified": "That reason, I say, go west, swing out, Leon, swing out, ah, yes, yes, ah.",
+      "human_listening_reviewed": false,
+      "template_similarity": {
+        "mfcc_temporal_cosine": 0.3088842034339905,
+        "energy_shape_cosine": 0.9160566329956055,
+        "combined_score": 0.6936842814087868,
+        "interpretation": "uncalibrated similarity to one source holler; not speaker/word proof; same phrase may differ and other syllables may match"
+      },
+      "classification_evidence": [
+        "short separated-voice activity; no verified speech identity",
+        "possible holler/singing/instrumental leakage; requires listening"
+      ],
+      "sample_rate": 22050,
+      "frames": 70340,
+      "wav_sha256": "fdf16dc043c722fecc03d87d79189c69c5245223964aabc49a2784e360ce9cd5",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     },
     {
@@ -3834,6 +4808,5 @@
       "wav_sha256": "87b8a3380a76446ab35871930a27f2ffe896a6e637ef2f49c042ad7f76eb72c8",
       "processing": "htdemucs separated vocal estimate; mono; 100Hz 2-pole highpass; polyphase22050;8ms edge fades; gain bounded by3x/peak.78/RMS.17; PCM16; no synthetic words"
     }
-  ],
-  "status": "Audition snapshot; wider search continues"
+  ]
 }
