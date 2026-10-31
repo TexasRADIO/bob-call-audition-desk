@@ -36771,6 +36771,27 @@
       "written_section_bars": 16,
       "reference_artist_id": "joaquin-murphey",
       "reference_band_id": "spade-cooley-and-his-orchestra"
+    },
+    {
+      "id": "section-lone-star-rag-steel16-r16",
+      "source_id": "bw-8790c33bb1ee548c-5-03",
+      "source_sha256": "8790c33bb1ee548c71e9280f30395325d8d57d4d99c474313db692ae7d2879ee",
+      "source_title": "Lone Star Rag",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "start_seconds": 89.35,
+      "end_seconds": 108.24,
+      "role": "instrumental",
+      "label": "Steel chord passage · pickup +16 bars",
+      "section_kind_hypothesis": "steel_solo",
+      "boundary_status": "Written leading bar+16body2/4form; first11source upper-contour measures fit at105.25qBPM, independent6bass15/4bass14half-note peaks support105.07qBPM. Quiet cuts before first/next chord attacks; last6upper pitches and audible completeness/seam remain for review. No quantization.",
+      "form_status": "Full16barbody source-form candidate; last6upper pitch sequence and audible completeness remain unconfirmed",
+      "key": null,
+      "chord": null,
+      "bar_aligned": false,
+      "cues": [],
+      "entry_cue": null,
+      "written_section_bars": 16,
+      "reference_artist_id": "leon-mcauliffe"
     }
   ]
 }
