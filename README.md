@@ -33,6 +33,8 @@ and Still fail export separately without reviving the original failed selection.
 openings/endings and cue-supported handoffs. ASR alone does not verify complete
 verse/chorus/solo identity, chord/key or bar boundaries.
 
+[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031.zip): four new vocal candidates and the Spanish interlude/backing estimates with loop bodies. All nine WAVs are separated, unreviewed estimates.
+
 [Download the103kept calls](https://texasradio.github.io/bob-call-audition-desk/Bob-Wills-Deconstructed-kept-calls.zip).
 The tools.json index separates usable calls, pending tests, repair comparisons,
 backing previews, section leads and failed IDs. Reviews save in this browser;
