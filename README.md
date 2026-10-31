@@ -5,11 +5,13 @@
 103 user-kept vocal extracts feed the AAH HAA!, YEAH!, encouragement and player-cue
 pads. The signature pad has13 kept variants; Yeah has8. Pads shuffle distinct
 occurrences before repeating. Your39 skips remain failed extractions. Current
-catalogue:267 call entries,103kept,39failed and125pending;52are new audition tests.
+catalogue:273 call entries,103kept,39failed and131pending;58are new audition tests.
 
-The latest batch adds two short Yeah candidates from What's The Use To Take You
-Back Again and There's Going To Be A Party. The preceding batch added two other
-Yeahs, Let's play, All right and a complete Yes/yes pair counted as one occurrence.
+The latest batch adds six concise whole-phrase candidates: cues naming Eldon,
+Tommy, Leon and Junior, Come on let's take it home, and All right fellas let's go
+for it now. A neighboring-word audit checks the selected spans before packaging.
+Words and player names remain automatic hypotheses. The preceding batch added
+two short Yeah candidates.
 Words and speaker still require listening review.
 Unreviewed calls stay out of usable pads.
 
@@ -46,8 +48,15 @@ sequence matches at115.6BPM without transposition. Lower chord voices, exact
 matrix/take and isolation quality remain open. It is an interlude, not the full
 song head. Guitar/piano model estimates may share substantial leakage.
 
-23 backing previews from7recordings offer23exact-body loop downloads with3ms
-fades. The latest Stay a Little Longer bass/rhythm and piano/rhythm versions
+25 backing previews from7recordings offer25exact-body loop downloads with3ms
+fades. The latest first-verse B8 backing follows the Stay A section exactly:
+27.531–35.923s, in bass/rhythm and piano/rhythm versions. Printed bars13–20 and
+17independent bass attacks support its eight-bar scope; sung pickups overlap
+phrase edges. Both variants share one new musical passage within the already
+sampled recording. This is an accompaniment/role candidate, not a new take or
+isolated lead. Source harmony is relative to the B body, including inherited G.
+
+The preceding Stay a Little Longer bass/rhythm and piano/rhythm versions
 retain the complete first8-bar A section,19.033–27.531s, through its tonic cadence.
 The printed A-section and17independent bass half-note attacks support the extent;
 actual loop seam and leakage still require listening. These are two renditions
@@ -66,7 +75,7 @@ The repair bench pairs29 alternate vocal extractions with their original failed
 isolated cuts. These are the same recorded occurrences. Keep repair, Needs trim
 and Still fail export separately without reviving the original failed selection.
 
-1,527 approximate section markers cover268recordings: vocal passages, instrumental
+1,662 approximate section markers cover288recordings: vocal passages, instrumental
 openings/endings and cue-supported handoffs. ASR alone does not verify complete
 verse/chorus/solo identity, chord/key or bar boundaries.
 Two Steel Guitar Rag maps now show score-supported opening A/B/C sections and
@@ -75,7 +84,9 @@ need audition. The earlier coarse spans remain archived in the research files.
 Tulsa also has two explicit feature layers for the neck change. Its final steel
 chord overlaps the next vocal entrance; instrumental and vocal rows can overlap.
 
-[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r8.zip): two concise vocal candidates and two complete8-bar Stay A-section backing versions. Four separate WAVs, all unreviewed.
+[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r9.zip): six concise vocal candidates and two complete8-bar first-verse B-section backing versions. Eight WAVs, all unreviewed.
+
+[Stay A-section backing batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r8.zip): two vocal candidates and two A-section backing versions. Four WAVs, all unreviewed.
 
 [Tulsa opening fiddle batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r7.zip): five vocal candidates and the two-statement opening fiddle estimate. Six WAVs, all unreviewed.
 
