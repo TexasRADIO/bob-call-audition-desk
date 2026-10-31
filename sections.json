@@ -36688,6 +36688,26 @@
       "bar_aligned": false,
       "cues": [],
       "overlap_policy": "Separate musical-form layer alongside earlier ASR broad passage rows"
+    },
+    {
+      "source_id": "bw-41c4c6962c6cc5eb-6-18",
+      "source_sha256": "41c4c6962c6cc5ebdfa893ce11755791e20ce2245324dd67082178f07948f64a",
+      "source_title": "Home In San Antone",
+      "source_album": "San Antonio Rose [Box Set][CD06]",
+      "id": "section-home-san-antone-steel-complete-r13",
+      "label": "Complete steel passage · leading measure +16",
+      "start_seconds": 66.19999999999935,
+      "end_seconds": 83.87068027210886,
+      "role": "instrumental",
+      "layer": "instrument_role",
+      "section_kind_hypothesis": "steel_chord_solo",
+      "boundary_status": "Source measures2–17 form64-quarter body, supported by29independent bass peaks and complete17-measure upper contour. Quiet physical cuts before attacks; no quantization or exact listening/seam approval.",
+      "form_status": "Complete17-measure source contour supports one leading measure plus16barbody; exact player/take, inner voices, separation and loop seam need review",
+      "key": null,
+      "chord": null,
+      "bar_aligned": false,
+      "cues": [],
+      "overlap_policy": "Separate instrument-role/form layer alongside ASR broad instrumental passages"
     }
   ]
 }
