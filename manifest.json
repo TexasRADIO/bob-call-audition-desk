@@ -56681,6 +56681,31 @@
       "status": "keep",
       "reviewed_at": "2026-10-31T13:01:56.467Z",
       "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-rag-cd02-19-41": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:18:49.040Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-rag-cd10-9-22": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:18:53.695Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "texas-playboy-rag-cd07-14-12-32": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:19:01.750Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "texas-playboy-rag-cd07-10-13-33": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:19:12.152Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "hometown-stomp-cd09-12-30": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:19:18.852Z",
+      "review_scope": "sample usability; skip means failed extraction"
     }
   },
   "phrase_review_defaults": {
@@ -56896,25 +56921,19 @@
     }
   },
   "review_recovery": {
-    "source": "Bob-call-review-4.json",
-    "source_sha256": "60b336afe78d5cb63df80cd39e36c69e36d92e35417444fe5a8a67f44f6322d7",
-    "source_exported_at": "2026-10-31T13:11:14.129Z",
-    "policy": "Union by review kind and stable ID; newest individual reviewed_at wins conflicting fields. Missing rows never delete older decisions. Original fields and comments retained.",
-    "feature_reviewed": 25,
-    "feature_kept": 18,
+    "source": "Bob-call-review-5.json",
+    "source_sha256": "f7d6425d7d5a4a93288bc033ef36ba22edbdecbb42fec071db7876bb01cd2e73",
+    "source_exported_at": "2026-10-31T13:20:22.218Z",
+    "policy": "Union by review kind and stable ID; newest individual reviewed_at wins conflicts; absent rows never erase saved decisions.",
+    "feature_reviewed": 30,
+    "feature_kept": 23,
     "feature_failed": 7,
-    "feature_pending": 5,
+    "feature_pending": 0,
     "backing_reviewed": 35,
     "backing_kept": 21,
     "backing_failed": 14,
     "backing_pending": 0,
-    "pending_feature_ids": [
-      "steel-rag-cd02-19-41",
-      "steel-rag-cd10-9-22",
-      "texas-playboy-rag-cd07-14-12-32",
-      "texas-playboy-rag-cd07-10-13-33",
-      "hometown-stomp-cd09-12-30"
-    ],
+    "all_usability_reviews_recorded": true,
     "repairs": "Withdrawn; no reactivation"
   },
   "review_recovery_history": [
@@ -57001,6 +57020,28 @@
       "feature_pending": 12,
       "backing_pending": 35,
       "repairs": "Withdrawn at owner request; historical repair reviews preserved privately, not reactivated."
+    },
+    {
+      "source": "Bob-call-review-4.json",
+      "source_sha256": "60b336afe78d5cb63df80cd39e36c69e36d92e35417444fe5a8a67f44f6322d7",
+      "source_exported_at": "2026-10-31T13:11:14.129Z",
+      "policy": "Union by review kind and stable ID; newest individual reviewed_at wins conflicting fields. Missing rows never delete older decisions. Original fields and comments retained.",
+      "feature_reviewed": 25,
+      "feature_kept": 18,
+      "feature_failed": 7,
+      "feature_pending": 5,
+      "backing_reviewed": 35,
+      "backing_kept": 21,
+      "backing_failed": 14,
+      "backing_pending": 0,
+      "pending_feature_ids": [
+        "steel-rag-cd02-19-41",
+        "steel-rag-cd10-9-22",
+        "texas-playboy-rag-cd07-14-12-32",
+        "texas-playboy-rag-cd07-10-13-33",
+        "hometown-stomp-cd09-12-30"
+      ],
+      "repairs": "Withdrawn; no reactivation"
     }
   ]
 }

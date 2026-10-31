@@ -41,9 +41,9 @@ test('latest band decisions survive an empty or stale browser and preserve comme
  const library=JSON.parse(fs.readFileSync('manifest.json'));
  const base=library.feature_review_defaults;
  const rows=library.features.map(c=>policy.decision(c.id,base,{}));
- assert.equal(rows.filter(r=>r.status==='keep').length,18);
+ assert.equal(rows.filter(r=>r.status==='keep').length,23);
  assert.equal(rows.filter(r=>r.status==='skip').length,7);
- assert.equal(rows.filter(r=>!r.status).length,5);
+ assert.equal(rows.filter(r=>!r.status).length,0);
  assert.equal(rows.filter(r=>r.comment).length,5);
  for(const [id,comment] of [['steel-guitar-stomp','horns'],['steel-silver-bells','fiddle '],['phrase-bw-6d69bb252cf3ed29-10-19-1708032-2654208-steel','steel chords '],['phrase-bw-1fd3a90969e45536-1-15-3913728-4536320-steel','guitar solo '],['phrase-bw-2eb959d038ae7e62-1-09-4767744-5460480-steel','gui']]) assert.equal(base[id].comment,comment);
  const id='fiddle-fat-boy';

@@ -1,3 +1,9 @@
+# Final sample review complete - 31 October 2026
+
+Owner supplied Bob-call-review-5.json, SHA-256f7d6425d7d5a4a93288bc033ef36ba22edbdecbb42fec071db7876bb01cd2e73. All387call/feature/backing candidates now have usability decisions:322calls268keep/54skip;30features23keep/7skip;35backing phrases21keep/14skip. Zero pending decisions. All12call comments and5feature comments preserved. The final5legacy feature choices are added without erasing older decisions; source audio unchanged and repair comparisons stay withdrawn. Comments identifying horns/fiddle/guitar remain reviewer evidence separate from original automatic source estimates.
+
+Branch loudoun-hq/call-audition-20261030; parent9405e5725d4b0d672b3ba77ce7663aea1686a8df. Tests, commit, exact live proof and private custody are in the external delivery receipt. Next: measured firmware import of approved calls/features/backing, following reviewer instrument notes; integration and exact-take/instrument certification are separate from completed usability review.
+
 # Latest band and backing review - 31 October 2026
 
 Imported Bob-call-review-4.json, SHA-25660b336afe78d5cb63df80cd39e36c69e36d92e35417444fe5a8a67f44f6322d7. Exact call decisions unchanged:268keep/54skip/12comments.25feature decisions now18keep/7skip with5comments preserved verbatim; all35backing phrases reviewed:21keep/14skip. Newer individual reviewed_at overrides earlier conflicts; missing rows never erase baseline decisions. The five restored older steel estimates remain pending; no feature/backing approval invented. All65feature/backing WAV hashes verified; no audio changed, repairs remain withdrawn. Existing browser keys and export schema unchanged.
