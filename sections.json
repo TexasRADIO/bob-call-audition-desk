@@ -36748,6 +36748,29 @@
       "bar_aligned": false,
       "cues": [],
       "overlap_policy": "Separate backing layer alongside R5complete head section rows"
+    },
+    {
+      "id": "section-shame-on-you-steel-reference16-r15",
+      "source_id": "ws-38c508f9f8802f65-2-18",
+      "source_sha256": "38c508f9f8802f65ed2ec1e82b6a033f7f921f4c730821207f2456b9ada93c18",
+      "source_title": "Shame On You",
+      "source_album": "Western Swing, Texas 1928-1944 CD2",
+      "source_artist": "Spade Cooley",
+      "start_seconds": 47.28,
+      "end_seconds": 67.96,
+      "role": "instrumental",
+      "label": "Steel solo candidate · pickup +16 bars",
+      "section_kind_hypothesis": "steel_solo",
+      "boundary_status": "Written16-bar form and1.5quarter pickup; first12 upper-contour bars fit this recording at192.25qBPM.21weak bass attacks corroborate192.51qBPM. Last4bar cadence/slide/harmonic pitches and exact releases not certified. Whole passage retained as a test; no loop or complete machine-transcription claim.",
+      "form_status": "Source-reference candidate; exact take/last4bar notes and listening completeness unconfirmed",
+      "key": null,
+      "chord": null,
+      "bar_aligned": false,
+      "cues": [],
+      "entry_cue": null,
+      "written_section_bars": 16,
+      "reference_artist_id": "joaquin-murphey",
+      "reference_band_id": "spade-cooley-and-his-orchestra"
     }
   ]
 }
