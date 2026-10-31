@@ -1,3 +1,7 @@
+# Swing out review control - 31 October 2026
+
+Added SWING OUT!, its call-family filter and Keep as Swing out! using category `swing_out`, at the user's request. No automatic reclassification; existing reviews, comments, storage and source audio remain unchanged. Branch `loudoun-hq/call-audition-20261030`, parent `f21eaebb4a3bc4d50bf35c48aa498e41e675e82c`. Checks, resulting commit and bundle are recorded in the adjacent external handover. Next: keep suitable calls in this category to enable the pad. Firmware import remains separate.
+
 # Uh-huh review control - 31 October 2026
 
 Added a separate UH-HUH! pad, call-family filter and Keep as Uh-huh! choice. It uses the new `uh_huh` category; no clips are reclassified automatically. The pad becomes available when the reviewer keeps a call in that family. Existing decisions, comments, storage keys and exports are preserved.

@@ -32,7 +32,7 @@ test('comment HTML is escaped, including attempted textarea/script breakout',()=
 });
 test('all families shuffle only kept distinct occurrences',()=>{
  const context={};vm.runInNewContext(fs.readFileSync('picker.js','utf8'),context);
- for(const category of ['ah','uh_huh','alright','named_player_cue']){
+ for(const category of ['ah','uh_huh','swing_out','alright','named_player_cue']){
   const pool=new context.BobCallPool(1);pool.configure([{id:'a',category,available:true,file:'a.wav',occurrence_id:'a'},{id:'copy',category,available:true,file:'b.wav',occurrence_id:'a'},{id:'pending',category,available:false,file:'c.wav',occurrence_id:'b'}],category);
   assert.equal(pool.bag.length,1);assert.equal(pool.next().id,'a');
  }

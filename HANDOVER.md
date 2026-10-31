@@ -1,3 +1,7 @@
+# Swing out follow-up - 31 October 2026
+
+Added SWING OUT!, its call-family filter and Keep as Swing out! using category `swing_out`, at the user's request. No automatic reclassification; existing reviews, comments, storage and source audio remain unchanged. Branch `loudoun-hq/call-audition-20261030`, parent `f21eaebb4a3bc4d50bf35c48aa498e41e675e82c`. Checks, resulting commit and bundle are recorded in the adjacent external handover. Next: keep suitable calls in this category to enable the pad. Firmware import remains separate.
+
 # Uh-huh follow-up - 31 October 2026
 
 Branch `loudoun-hq/call-audition-20261030`, parent `7ed0d334c2bdf51a49be2378e03754ec86278aa8`. User requested a separate Uh-huh button. Added pad, filter, Keep-as choice, count and export category `uh_huh`. No source audio or baseline decisions changed. Existing review storage keys/schema are unchanged. Checks and resulting commit are recorded in the adjacent external handover. Next: reviewer can classify Uh-huh calls; the pad remains disabled until a kept selection exists. Firmware import remains separate.
