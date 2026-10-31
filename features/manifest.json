@@ -1265,6 +1265,56 @@
       "peak": 0.9600000381469727,
       "processing_gain": 1.629394604668554,
       "edge_fade_seconds": 0.003
+    },
+    {
+      "id": "fiddle-tulsa-opening-two-statements-r7",
+      "kind": "fiddle",
+      "source_id": "bw-f56ae365ca065a8a-5-28",
+      "source_sha256": "f56ae365ca065a8aaae4006be3d138f7d0d67c46f21bbe792acbcfb9bfacc451",
+      "source_title": "Take Me Back To Tulsa",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-28 Take Me Back To Tulsa.mp3",
+      "label": "Take Me Back to Tulsa \u00b7 opening melody, two statements",
+      "start_seconds": 0.0,
+      "end_seconds": 15.958253968253969,
+      "source_start_sample_44100": 0,
+      "source_end_sample_44100": 703759,
+      "bars": null,
+      "key": null,
+      "chord": null,
+      "bar_aligned": false,
+      "phrase_complete_verified": false,
+      "performer": "Fiddle hypothesis; player unconfirmed",
+      "classification_evidence": [
+        "Two complete pitch-contour statements are retained from the recorded opening, including their final G and following release.",
+        "Other-stem printed-verse contour fits: [[0.8137389421463013, 0.6, 126.0, 0], [0.7994553446769714, 8.18, 131.0, 0]]",
+        "Ending placed in separated-lead quiet valley after second cadence and before next variation. No uniform tempo or bar count assigned."
+      ],
+      "boundary_status": "Whole opening two-statement passage candidate; quiet cadence release retained. Exact metrical grouping and listening approval pending.",
+      "model_target": "htdemucs_6s other; guitar/piano/vocals/bass/drums excluded",
+      "isolation_status": "Melodic fiddle hypothesis; other stem may contain horns or leakage. Instrument identity, purity and complete-phrase usability require audition.",
+      "review_status": "unreviewed",
+      "available": false,
+      "human_listening_reviewed": false,
+      "is_original_or_context_audio": false,
+      "counts_as_new_recorded_performance": true,
+      "processing": "cached HTDemucs6s other from0\u201324s context;PCM24 stereo44100;3ms fades;bounded gain",
+      "boundary_evidence": {
+        "end_quiet_valley_seconds": 15.958253968253969,
+        "end_rms_20ms": 0.0017291813855990767,
+        "final_G_rms_80th_percentile": 0.06186381354928017,
+        "end_to_note_rms_ratio": 0.027951419353485107,
+        "source_original_unchanged": true
+      },
+      "file": "phrases/fiddle-tulsa-opening-two-statements-r7.wav",
+      "wav_sha256": "2447fda9e6cdc114338bd6e6735a9b2de4756509a6b9bf9af180e39d578e5928",
+      "frames": 703759,
+      "sample_rate": 44100,
+      "channels": 2,
+      "processing_gain": 2.0,
+      "edge_fade_seconds": 0.003,
+      "peak": 0.8515650033950806,
+      "rms": 0.14447510242462158
     }
   ]
 }

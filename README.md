@@ -5,13 +5,22 @@
 103 user-kept vocal extracts feed the AAH HAA!, YEAH!, encouragement and player-cue
 pads. The signature pad has13 kept variants; Yeah has8. Pads shuffle distinct
 occurrences before repeating. Your39 skips remain failed extractions. Current
-catalogue:260 call entries,103kept,39failed and118pending;45are new audition tests.
+catalogue:265 call entries,103kept,39failed and123pending;50are new audition tests.
 
-The latest batch adds two separate short Yeah candidates and a Noel player cue.
+The latest batch adds two short Yeah candidates from How Can It Be Wrong,
+Let's play from This Is Southland, All right from Takin' It Home, and a complete
+Yes/yes pair from This Is Southland, counted together as one occurrence.
 Words and speaker still require listening review.
 Unreviewed calls stay out of usable pads.
 
-The instrumental bench has16steel and5fiddle estimates. The latest test extends
+The instrumental bench has16steel and6fiddle estimates. The latest fiddle test
+retains both opening melody statements from Take Me Back to Tulsa, through the
+second cadence and its release, ending at15.958s. It uses the separated other
+stem. Its printed-verse contour comparisons support the passage selection;
+instrument identity, bar grouping and isolation still require audition. This
+passage is not a certified complete named-song head or a loop.
+
+The preceding test extends
 the earlier Tulsa opening to the complete16-bar McAuliffe improvisation: eight
 single-note bars followed by eight chordal bars. Its bass/drums and piano/rhythm
 versions retain the same complete musical passage. These share the performance
@@ -59,7 +68,9 @@ need audition. The earlier coarse spans remain archived in the research files.
 Tulsa also has two explicit feature layers for the neck change. Its final steel
 chord overlaps the next vocal entrance; instrumental and vocal rows can overlap.
 
-[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r6.zip): three vocal candidates, the complete16-bar Tulsa steel solo estimate and two backing versions. Six separate WAVs, all unreviewed.
+[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r7.zip): five concise vocal candidates and the two-statement Tulsa opening fiddle estimate. Six separate WAVs, all unreviewed.
+
+[Tulsa complete solo and backings batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r6.zip): three vocal candidates, the complete16-bar Tulsa steel solo estimate and two backing versions. Six separate WAVs, all unreviewed.
 
 [Steel Guitar Rag head batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r5.zip): four vocal candidates and the complete48-bar steel-head estimate.
 
