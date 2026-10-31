@@ -5,14 +5,19 @@
 103 user-kept vocal extracts feed the AAH HAA!, YEAH!, encouragement and player-cue
 pads. The signature pad has13 kept variants; Yeah has8. Pads shuffle distinct
 occurrences before repeating. Your39 skips remain failed extractions. Current
-catalogue:244 call entries,103kept,39failed and102pending;29are new audition tests.
+catalogue:253 call entries,103kept,39failed and111pending;38are new audition tests.
 
-The latest batch adds three short spoken-call candidates and one acoustic call
-candidate missed by ASR, re-extracted through the six-source vocal model. Word,
-speaker and signature identity remain unverified for the acoustic candidate.
+The latest batch adds seven concise spoken-call candidates and two acoustic
+events, re-extracted through the six-source vocal model. Word, speaker and
+signature identity remain unverified for the acoustic events.
 Unreviewed calls stay out of usable pads.
 
-The instrumental bench has12steel and4fiddle estimates. A new Spanish Two Step
+The instrumental bench has14steel and5fiddle estimates. The latest tests include
+two steel passages following Leon cues in St. Louis Blues and I Don't Love Nobody,
+and the instrumental break between sung passages in She's Killing Me as a fiddle
+estimate. Their instrument purity, exact attacks/cadences and full-solo scope need
+audition. The fiddle candidate is not assigned an invented eight-bar length.
+A Spanish Two Step
 candidate spans the full16-bar printed McAuliffe interlude, around70.36–86.97s,
 with its eighth pickup retained and a fitted terminal cadence. Its upper-note
 sequence matches at115.6BPM without transposition. Lower chord voices, exact
@@ -29,11 +34,13 @@ The repair bench pairs29 alternate vocal extractions with their original failed
 isolated cuts. These are the same recorded occurrences. Keep repair, Needs trim
 and Still fail export separately without reviving the original failed selection.
 
-652 approximate section markers cover122recordings: vocal passages, instrumental
+868 approximate section markers cover166recordings: vocal passages, instrumental
 openings/endings and cue-supported handoffs. ASR alone does not verify complete
 verse/chorus/solo identity, chord/key or bar boundaries.
 
-[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031.zip): four new vocal candidates and the Spanish interlude/backing estimates with loop bodies. All nine WAVs are separated, unreviewed estimates.
+[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r4.zip): nine vocal candidates and three instrument tests, all separated and unreviewed.
+
+[Prior Spanish interlude batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031.zip): four vocal candidates and the Spanish interlude/backing estimates with loop bodies. All nine WAVs remain available at their original URLs.
 
 [Download the103kept calls](https://texasradio.github.io/bob-call-audition-desk/Bob-Wills-Deconstructed-kept-calls.zip).
 The tools.json index separates usable calls, pending tests, repair comparisons,
