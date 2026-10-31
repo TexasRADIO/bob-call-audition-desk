@@ -1,6 +1,6 @@
 {
   "schema_version": "bb-bob-song-sections-v1",
-  "method": "ASR leads plus explicit separately labelled musical-form hypotheses; no listening approval",
+  "method": "Source-time leads plus separately labelled musical/instrument-role hypotheses; no listening approval",
   "sections": [
     {
       "id": "section-bw-0f246451771e4044-1-03-0-4230954",
@@ -36628,6 +36628,26 @@
       "bar_aligned": false,
       "cues": [],
       "overlap_policy": "Musical form rows coexist with original ASR word-span leads; no earlier row overwritten"
+    },
+    {
+      "id": "section-silver-harmonics-passage-r11",
+      "source_id": "bw-c9a1c1b8337f4f44-4-13",
+      "source_sha256": "c9a1c1b8337f4f4409144856a04893316cabc6c8835b8cc02100403675b15411",
+      "source_title": "Silver Bells",
+      "source_album": "San Antonio Rose [Box Set][CD04]",
+      "start_seconds": 79.0,
+      "end_seconds": 119.4,
+      "label": "Harmonics lead passage \u00b7 entry and ending candidate",
+      "role": "instrumental",
+      "layer": "instrument_role",
+      "section_kind_hypothesis": "steel_harmonics_passage",
+      "boundary_status": "Continuous high-register glissando trajectory with lead-in/release retained; exact metrical boundaries unverified",
+      "form_status": "Complete observed passage candidate; no bar-aligned loop or exact printed-head match claimed",
+      "key": null,
+      "chord": null,
+      "bar_aligned": false,
+      "cues": [],
+      "overlap_policy": "Separate instrument-role layer alongside earlier ASR broad passage rows"
     }
   ]
 }
