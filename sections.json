@@ -36792,6 +36792,27 @@
       "entry_cue": null,
       "written_section_bars": 16,
       "reference_artist_id": "leon-mcauliffe"
+    },
+    {
+      "id": "section-osage-stomp-steel12-r17",
+      "source_id": "bw-0f246451771e4044-1-03",
+      "source_sha256": "0f246451771e40443a510ab2180ddd63f8e5a62759c73f5dc1cfb80abc167e9b",
+      "source_title": "Osage Stomp",
+      "source_album": "San Antonio Rose [Box Set][CD01]",
+      "start_seconds": 93.78,
+      "end_seconds": 104.34,
+      "role": "instrumental",
+      "label": "Steel passage · pickup +12 bars",
+      "section_kind_hypothesis": "steel_solo",
+      "boundary_status": "Written leading bar+12body2/4form, all13measure upper contour fits at144qBPM, independent4drums9peaks support143.85qBPM (observed throughquarter15), bass/latecadence support approximate ending. Final9quarters extrapolated against full contour; quiet physical cuts, no quantization. Audible completeness, exact bar boundary/seam and local take remain unapproved.",
+      "form_status": "Full12barbody source-form candidate; all13upper-contour measures compared. Slides/ties/articulations, exact local take and audible completeness remain unconfirmed",
+      "key": null,
+      "chord": null,
+      "bar_aligned": false,
+      "cues": [],
+      "entry_cue": null,
+      "written_section_bars": 12,
+      "reference_artist_id": "leon-mcauliffe"
     }
   ]
 }
