@@ -1,11 +1,17 @@
+# Review desk update - 31 October 2026
+
+Your uploaded review has181keeps and45failures;96calls remain pending. Its original SHA-256 is `af41bd3fdb930f44e3b6978eb29d21877d1a623c9fe56b6e43f37582eabec990`. All226IDs/occurrence identities matched; kept WAV bytes are unchanged. The RolyPoly84.30-85.52s example is labelled Ah! with its usability decision still pending.
+
+Each call has Keep as Ah!, Ah-ha!, Yeah!, Alright! and Band/solo choices. Band/solo retains the existing named-player-cue ID so prior reviews keep working. Comments on calls, features, backing phrases and repairs save as you type and export even without a Keep/Fail decision. Keep/Fail/relabel/reset-choice preserves comments. The original browser storage keys are retained; a newer baseline correction cannot discard an older local-only comment/status field. The earlier103-callZIP remains explicitly labelled as an earlier delivery.
+
 # Bob Wills Deconstructed
 
 [Open the listening desk](https://texasradio.github.io/bob-call-audition-desk/).
 
-103 user-kept vocal extracts feed the AAH HAA!, YEAH!, encouragement and player-cue
-pads. The signature pad has13 kept variants; Yeah has8. Pads shuffle distinct
-occurrences before repeating. Your39 skips remain failed extractions. Current
-catalogue:273 call entries,103kept,39failed and131pending;58are new audition tests.
+181 user-kept vocal extracts feed the AAH HAA!, YEAH!, encouragement and player-cue
+pads. Ah!, Ah-ha!, Yeah!, Alright!, Encouragement and Band/solo have separate review labels/pads. Pads shuffle distinct
+occurrences before repeating. Your45 skips remain failed extractions. Current
+catalogue:322 call entries,181kept,45failed and96pending.
 
 The latest batch adds six concise whole-phrase candidates: cues naming Eldon,
 Tommy, Leon and Junior, Come on let's take it home, and All right fellas let's go
@@ -104,6 +110,4 @@ backing previews, section leads and failed IDs. Reviews save in this browser;
 export review notes to return your decisions. Original mixes and full internal
 stems are excluded from the site and ZIP.
 
-The296-recording local separation/analysis pass remains active, prioritizing
-252previously unscreened vocal recordings. A separate acoustic pass searches for
-short nonverbal calls missed by speech recognition. No firmware is changed here.
+Audio/call/stem/corpus batches remain paused. This update changes the review desk only; no firmware or source audio is changed.

@@ -16,9 +16,9 @@
   "new_candidate_occurrences": 315,
   "inherited_existing_estimates": 7,
   "status": "user_reviewed_library_with_separate_pending_candidates",
-  "updated_unix": 1793426663.839705,
+  "updated_unix": 1793446613.005435,
   "reviewed_library": true,
-  "review_revision": 4,
+  "review_revision": 5,
   "review_defaults": {
     "call-f524bfdb8605c5a4": {
       "status": "keep",
@@ -739,18 +739,481 @@
       "status": "skip",
       "reviewed_at": "2026-10-30T21:55:36.192Z",
       "reviewer": "imported user audition decision"
+    },
+    "call-76514a477cccb780": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T10:53:54.370Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-1bf81b381c2fbd8a": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T10:54:01.343Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-1b46b013506318d6": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T10:54:09.457Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-dceb780a3a0b99e1": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T10:54:26.872Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-17d5082e4dca1d66": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T10:54:32.271Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-e5e1df7adc5958dc": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T10:54:37.211Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-f882ce1f6e7029a2": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T10:54:41.304Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-53cf80f4644ebdb1": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T10:54:45.220Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-39efdfb3e178aa02": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T10:54:50.786Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-4263476cbcf8f330": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T10:54:54.111Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-bb216aeed02456e8": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T10:54:55.776Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-5fb41016dba9dad0": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T10:55:01.105Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-c024be81876cd5bb": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:22:45.781Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-5912ed9600279b2f": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:22:50.380Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-ebafe4bdb3ba554b": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:22:56.865Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-a83f9b7df70f84d3": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:03.430Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-97164c3569a53927": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:07.379Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-b12739178ce82187": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:11.582Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-c4f5b0ad0f0f6379": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T11:23:19.933Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-8df47eaf235f1763": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:23.967Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-a610f85371a46a2b": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:27.898Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-9baeac514b4d3423": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:32.128Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-75f779bf8ccf15b6": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:37.125Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-1f078b252ea18d3c": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:41.928Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-6b5cb7cc9759b75f": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:47.923Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-e1f4b5d973cdf663": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:51.778Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-77bced8de0ca7c12": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:23:58.156Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-6093c05cd8cd3ad6": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:24:03.058Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-59817d02034bfe53": {
+      "status": "keep",
+      "category": "signature_aah_haa",
+      "reviewed_at": "2026-10-31T11:24:07.281Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-d0477e00a0670ef8": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:24:12.948Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-2fa9fcddbeb97840": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:24:17.911Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-3772455887f8eef6": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:24:21.843Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-40d5573bbd97f08a": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:24:27.915Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-5de6dfdfba59f59e": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:24:32.097Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-bf48f41570acff30": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:24:36.459Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-be9dcc78e672acb4": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:24:40.894Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-ea2df9a74aa9ad3f": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:24:50.601Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-d2b723a1eed4d39d": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:24:57.050Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-9e882a13d2f0b25b": {
+      "status": "keep",
+      "category": "signature_aah_haa",
+      "reviewed_at": "2026-10-31T11:25:03.614Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-546dcf7df8bec8a4": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:25:09.254Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-20a75d9a5d1c7b4a": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:25:13.693Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-3e4558590edbaf38": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:25:18.226Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-393e752432cd5d23": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:25:21.119Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-1525ba3c449e4fa1": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:25:25.656Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-cc5141900a00995c": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:25:31.423Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-056d4f1f10775a4f": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:25:36.782Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-f3138724c168b910": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:25:41.448Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-7d813b76a8cefe5f": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:25:44.999Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-2933862cfdaf3191": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:25:48.542Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-521bc24487abfa38": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:25:53.983Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-ac94c16914ec6b86": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:26:01.880Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-20dbb191ebb6bb38": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:26:05.954Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-8a3b94fa55a43464": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T11:26:13.602Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-1138e35fac683f2b": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:26:20.036Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-cfefbf3f81789a4b": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:26:28.277Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-8d69e861d61c83a2": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:26:33.960Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-07dad3bf140f9cc4": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:26:38.653Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-20d0636f3ab98ce0": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:26:45.147Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-cad45e182da1b945": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:26:49.888Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-a943b6cd46af0a98": {
+      "status": "keep",
+      "category": "signature_aah_haa",
+      "reviewed_at": "2026-10-31T11:26:55.543Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-d586dd3af1f78088": {
+      "status": "keep",
+      "category": "signature_aah_haa",
+      "reviewed_at": "2026-10-31T11:26:59.728Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-afe52148fd6060d7": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:27:03.731Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-635936959e2ca0da": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:27:08.279Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-f12208d7d405b54c": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:27:13.278Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-efd18ad4e5e0e3ca": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:27:18.598Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-9c9e8b087f4748f5": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:27:23.968Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-c367b41336fea3f8": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:27:30.544Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-7bf02e6f465590f6": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:27:34.861Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-13aee42b9e887199": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:27:38.818Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-adcd4212e40f2ee7": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:27:43.051Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-be65e879d6b48d24": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T11:27:50.148Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-8227252ec67ee978": {
+      "status": "keep",
+      "category": "signature_aah_haa",
+      "reviewed_at": "2026-10-31T11:27:55.125Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-9e48b243c788523e": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:28:00.117Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-4089d2aa1190b291": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T11:28:08.057Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-99bc874ad593e289": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:28:13.084Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-39c0a69eef4be24e": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:28:16.628Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-9c85d91a47fdf24b": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:28:21.358Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-a034fb5ee9947d3e": {
+      "status": "keep",
+      "category": "signature_aah_haa",
+      "reviewed_at": "2026-10-31T11:28:26.315Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-a5ec2f4124b5bab9": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:28:31.812Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-c0bb1cc44ca9cea7": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:28:42.150Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-0251b4105922523f": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:28:46.290Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-d3eed4954de5689e": {
+      "status": "keep",
+      "category": "signature_aah_haa",
+      "reviewed_at": "2026-10-31T11:28:49.982Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-4e63508a7e18b75e": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T11:28:55.381Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-8bc2b0ba64761091": {
+      "status": "keep",
+      "category": "yeah",
+      "reviewed_at": "2026-10-31T11:29:01.784Z",
+      "reviewer": "user selection in local listening interface"
+    },
+    "call-d90473ad64cbb135": {
+      "category": "ah",
+      "label": "Ah!",
+      "reviewed_at": "2026-10-31T11:36:53.005144Z",
+      "reviewer": "user label correction in BB-BOB chat; usability decision remains separate"
     }
   },
   "review_summary": {
-    "import_sha256": "9da1787177223dd9905148199fc1b2d3a13e63d1cc450e4ac5edb8aab2f446c4",
-    "kept": 103,
-    "failed": 39,
-    "unreviewed": 180,
-    "reviewed_occurrences": 142,
+    "import_sha256": "af41bd3fdb930f44e3b6978eb29d21877d1a623c9fe56b6e43f37582eabec990",
+    "kept": 181,
+    "failed": 45,
+    "unreviewed": 96,
+    "reviewed_occurrences": 226,
     "restored_exact_reviewed_versions": 17,
     "yeah_short_calls": 8,
     "duplicate_uploads_counted_once": true,
-    "skips_mean": "failed extractions; excluded from usable sample pools"
+    "skips_mean": "failed extractions; excluded from usable sample pools",
+    "import_exported_at": "2026-10-31T11:30:25.812Z",
+    "label_only_corrections": 1,
+    "review_fields": [
+      "status",
+      "category",
+      "label",
+      "comment",
+      "reviewed_at"
+    ],
+    "new_call_families": [
+      "ah",
+      "alright"
+    ],
+    "band_solo_family": "named_player_cue retained for compatibility; now includes whole-band/solo cues"
   },
   "expansion_summary": {
     "new_screened_sources": 176,
@@ -56293,5 +56756,22 @@
       "frames": 42998,
       "sample_rate": 22050
     }
-  ]
+  ],
+  "review_history": [
+    {
+      "previous_revision": 4,
+      "summary": {
+        "import_sha256": "9da1787177223dd9905148199fc1b2d3a13e63d1cc450e4ac5edb8aab2f446c4",
+        "kept": 103,
+        "failed": 39,
+        "unreviewed": 180,
+        "reviewed_occurrences": 142,
+        "restored_exact_reviewed_versions": 17,
+        "yeah_short_calls": 8,
+        "duplicate_uploads_counted_once": true,
+        "skips_mean": "failed extractions; excluded from usable sample pools"
+      }
+    }
+  ],
+  "review_status": "181user-kept cuts;45failures and96pending excluded from usable pads. Word labels can be corrected separately; comments do not approve a sample."
 }
