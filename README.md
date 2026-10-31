@@ -1,3 +1,7 @@
+# Uh-huh review control - 31 October 2026
+
+Added a separate UH-HUH! pad, call-family filter and Keep as Uh-huh! choice. It uses the new `uh_huh` category; no clips are reclassified automatically. The pad becomes available when the reviewer keeps a call in that family. Existing decisions, comments, storage keys and exports are preserved.
+
 # Review desk update - 31 October 2026
 
 Your uploaded review has181keeps and45failures;96calls remain pending. Its original SHA-256 is `af41bd3fdb930f44e3b6978eb29d21877d1a623c9fe56b6e43f37582eabec990`. All226IDs/occurrence identities matched; kept WAV bytes are unchanged. The RolyPoly84.30-85.52s example is labelled Ah! with its usability decision still pending.

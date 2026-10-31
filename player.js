@@ -2,7 +2,7 @@
 const library=window.BOB_LIBRARY||{calls:[],steel:[]};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const labels={signature_aah_haa:'Aah Haa',encouragement:'Encouragement',named_player_cue:'Band / solo cue',uncertain_vocal:'Call candidate',ah:'Ah!',alright:'Alright!',yeah:'Yeah!',other_call:'Other call'};
+const labels={signature_aah_haa:'Aah Haa',encouragement:'Encouragement',named_player_cue:'Band / solo cue',uncertain_vocal:'Call candidate',ah:'Ah!',uh_huh:'Uh-huh!',alright:'Alright!',yeah:'Yeah!',other_call:'Other call'};
 const storageKey='bb-bob-call-review-v3';
 let reviews={};try{reviews=JSON.parse(localStorage.getItem(storageKey)||'{}')}catch{}
 let active=null,epoch=0;
@@ -20,11 +20,11 @@ function refreshCounts(){
   const kept=calls.filter(c=>c.review.status==='keep').length,failed=calls.filter(c=>c.review.status==='skip').length,pending=calls.length-kept-failed;
   $('#libraryCount').textContent=`${kept} kept calls · ${new Set(calls.map(c=>c.source_id)).size} source recordings`;
   $('#progress').textContent=`${failed} failed extractions · ${pending} awaiting review`;
-  $('#signatureCount').textContent=`${poolFor('ah').bag.length} Ah! · ${sig} Aah Haa · ${poolFor('yeah').bag.length} Yeah! · ${poolFor('alright').bag.length} Alright!`;
+  $('#signatureCount').textContent=`${poolFor('ah').bag.length} Ah! · ${poolFor('uh_huh').bag.length} Uh-huh! · ${sig} Aah Haa · ${poolFor('yeah').bag.length} Yeah! · ${poolFor('alright').bag.length} Alright!`;
   $('#otherCount').textContent=`${enc+cue} encouragement / band-solo cues`;
   $('#reviewedCount').textContent=`${kept} kept in your review`;
   $('#reviewNew').textContent=`Review ${calls.filter(c=>c.new_candidate&&!c.review.status).length} new call tests`;
-  $('#ah').disabled=!poolFor('ah').bag.length;$('#alright').disabled=!poolFor('alright').bag.length;$('#signature').disabled=!sig;$('#yeah').disabled=!poolFor('yeah').bag.length;$('#encouragement').disabled=!enc;$('#playerCue').disabled=!cue;
+  $('#ah').disabled=!poolFor('ah').bag.length;$('#uhHuh').disabled=!poolFor('uh_huh').bag.length;$('#alright').disabled=!poolFor('alright').bag.length;$('#signature').disabled=!sig;$('#yeah').disabled=!poolFor('yeah').bag.length;$('#encouragement').disabled=!enc;$('#playerCue').disabled=!cue;
 }
 function filtered(){
   const query=$('#search').value.trim().toLowerCase(),category=$('#category').value,state=$('#reviewState').value;
@@ -32,7 +32,7 @@ function filtered(){
 }
 function render(){
   refreshCounts();
-  $('#calls').innerHTML=filtered().map(c=>`<article class="card ${active===c.id?'active':''}" data-id="${esc(c.id)}"><span class="tag ${c.review.status==='keep'?'keep':''}">${esc(labels[c.category]||'Call candidate')}${c.review.status==='keep'?' · kept':c.review.status==='skip'?' · failed extraction':''}</span><h3>${esc(c.label||labels[c.category]||'Call candidate')}</h3><p>${esc(c.source_title)}<br><span class="muted">${esc(c.source_album||'')} · ${Number(c.start_seconds).toFixed(2)}–${Number(c.end_seconds).toFixed(2)}s</span></p><div class="actions"><button data-action="play">▶ Play</button><a href="${esc(c.file)}" download>WAV</a></div><div class="review"><button data-action="keep" class="${c.review.status==='keep'?'on':''}">Keep</button><button data-action="ah" class="${c.category==='ah'&&c.review.status==='keep'?'on':''}">Keep as Ah!</button><button data-action="signature">Keep as Aah Haa</button><button data-action="alright" class="${c.category==='alright'&&c.review.status==='keep'?'on':''}">Keep as Alright!</button><button data-action="solo" class="${c.category==='named_player_cue'&&c.review.status==='keep'?'on':''}">Keep as Band / solo</button><button data-action="yeah">Keep as Yeah!</button><button data-action="skip" class="${c.review.status==='skip'?'on':''}">Fail / Skip</button><button data-action="reset">Reset choice</button></div>${BobReviewNotes.field(c.review)}<details style="margin-top:10px"><summary>Source details</summary><p>${esc(c.classification_status||'automatic candidate')}<br>${esc(c.speaker_confidence||'Speaker unverified')}</p><p>${esc(c.phrase_asr_unverified||'')}</p><p>Original label: ${esc(c.source_label||'')}</p><small>${esc(c.id)}</small></details></article>`).join('')||'<div class="empty">No clips match these filters.</div>';
+  $('#calls').innerHTML=filtered().map(c=>`<article class="card ${active===c.id?'active':''}" data-id="${esc(c.id)}"><span class="tag ${c.review.status==='keep'?'keep':''}">${esc(labels[c.category]||'Call candidate')}${c.review.status==='keep'?' · kept':c.review.status==='skip'?' · failed extraction':''}</span><h3>${esc(c.label||labels[c.category]||'Call candidate')}</h3><p>${esc(c.source_title)}<br><span class="muted">${esc(c.source_album||'')} · ${Number(c.start_seconds).toFixed(2)}–${Number(c.end_seconds).toFixed(2)}s</span></p><div class="actions"><button data-action="play">▶ Play</button><a href="${esc(c.file)}" download>WAV</a></div><div class="review"><button data-action="keep" class="${c.review.status==='keep'?'on':''}">Keep</button><button data-action="ah" class="${c.category==='ah'&&c.review.status==='keep'?'on':''}">Keep as Ah!</button><button data-action="uh_huh" class="${c.category==='uh_huh'&&c.review.status==='keep'?'on':''}">Keep as Uh-huh!</button><button data-action="signature">Keep as Aah Haa</button><button data-action="alright" class="${c.category==='alright'&&c.review.status==='keep'?'on':''}">Keep as Alright!</button><button data-action="solo" class="${c.category==='named_player_cue'&&c.review.status==='keep'?'on':''}">Keep as Band / solo</button><button data-action="yeah">Keep as Yeah!</button><button data-action="skip" class="${c.review.status==='skip'?'on':''}">Fail / Skip</button><button data-action="reset">Reset choice</button></div>${BobReviewNotes.field(c.review)}<details style="margin-top:10px"><summary>Source details</summary><p>${esc(c.classification_status||'automatic candidate')}<br>${esc(c.speaker_confidence||'Speaker unverified')}</p><p>${esc(c.phrase_asr_unverified||'')}</p><p>Original label: ${esc(c.source_label||'')}</p><small>${esc(c.id)}</small></details></article>`).join('')||'<div class="empty">No clips match these filters.</div>';
 }
 async function playClip(c){
   const token=++epoch;active=c.id;audio.pause();audio.src=c.file;audio.currentTime=0;
@@ -44,7 +44,7 @@ async function playClip(c){
 }
 function stop(){epoch++;window.dispatchEvent(new Event('bob-stop-all'));document.querySelectorAll('audio').forEach(a=>a.pause());$('#status').textContent='Stopped.';}
 function random(category){const clip=poolFor(category).next();if(clip)playClip(clip);else $('#status').textContent='No clips in this call family yet.';return clip;}
-$('#ah').onclick=()=>random('ah');$('#alright').onclick=()=>random('alright');$('#yeah').onclick=()=>random('yeah');$('#signature').onclick=()=>random('signature_aah_haa');$('#encouragement').onclick=()=>random('encouragement');$('#playerCue').onclick=()=>random('named_player_cue');$('#stop').onclick=stop;
+$('#ah').onclick=()=>random('ah');$('#uhHuh').onclick=()=>random('uh_huh');$('#alright').onclick=()=>random('alright');$('#yeah').onclick=()=>random('yeah');$('#signature').onclick=()=>random('signature_aah_haa');$('#encouragement').onclick=()=>random('encouragement');$('#playerCue').onclick=()=>random('named_player_cue');$('#stop').onclick=stop;
 $('#volume').oninput=()=>{document.querySelectorAll('audio').forEach(a=>a.volume=Number($('#volume').value))};
 audio.addEventListener('ended',()=>{$('#status').textContent='Ready for the next call.'});
 $('#calls').addEventListener('click',e=>{
@@ -52,7 +52,7 @@ $('#calls').addEventListener('click',e=>{
   const id=b.closest('[data-id]').dataset.id,c=library.calls.find(c=>c.id===id),action=b.dataset.action;
   if(action==='play'){playClip(effective(c));return;}
   if(action==='reset')BobReviewPolicy.resetChoice(id,library.review_defaults,reviews);
-  else reviews[id]={...effective(c).review,status:action==='skip'?'skip':'keep',...(action==='ah'?{category:'ah',label:'Ah!'}:action==='alright'?{category:'alright',label:'Alright!'}:action==='solo'?{category:'named_player_cue',label:''}:action==='signature'?{category:'signature_aah_haa',label:'Ah-ha!'}:action==='yeah'?{category:'yeah',label:'Yeah!'}:{}),reviewed_at:new Date().toISOString(),reviewer:'user selection in local listening interface'};
+  else reviews[id]={...effective(c).review,status:action==='skip'?'skip':'keep',...(action==='ah'?{category:'ah',label:'Ah!'}:action==='uh_huh'?{category:'uh_huh',label:'Uh-huh!'}:action==='alright'?{category:'alright',label:'Alright!'}:action==='solo'?{category:'named_player_cue',label:''}:action==='signature'?{category:'signature_aah_haa',label:'Ah-ha!'}:action==='yeah'?{category:'yeah',label:'Yeah!'}:{}),reviewed_at:new Date().toISOString(),reviewer:'user selection in local listening interface'};
   saveLocal();render();
 });
 BobReviewNotes.bind($('#calls'),'data-id',id=>effective(library.calls.find(c=>c.id===id)).review,(id,r)=>{reviews[id]=r;saveLocal()});

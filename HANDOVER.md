@@ -1,3 +1,7 @@
+# Uh-huh follow-up - 31 October 2026
+
+Branch `loudoun-hq/call-audition-20261030`, parent `7ed0d334c2bdf51a49be2378e03754ec86278aa8`. User requested a separate Uh-huh button. Added pad, filter, Keep-as choice, count and export category `uh_huh`. No source audio or baseline decisions changed. Existing review storage keys/schema are unchanged. Checks and resulting commit are recorded in the adjacent external handover. Next: reviewer can classify Uh-huh calls; the pad remains disabled until a kept selection exists. Firmware import remains separate.
+
 # Listening desk handover - 31 October 2026
 
 Local checkout outside iCloud, branch `loudoun-hq/call-audition-20261030`, parent `edb805249fb747074486be5b968931523b8d442c`. This repository owns the existing GitHub Pages listening desk; BB-BOB firmware development stays in its separate worktree.
