@@ -5,14 +5,21 @@
 103 user-kept vocal extracts feed the AAH HAA!, YEAH!, encouragement and player-cue
 pads. The signature pad has13 kept variants; Yeah has8. Pads shuffle distinct
 occurrences before repeating. Your39 skips remain failed extractions. Current
-catalogue:253 call entries,103kept,39failed and111pending;38are new audition tests.
+catalogue:257 call entries,103kept,39failed and115pending;42are new audition tests.
 
-The latest batch adds seven concise spoken-call candidates and two acoustic
-events, re-extracted through the six-source vocal model. Word, speaker and
-signature identity remain unverified for the acoustic events.
+The latest batch adds four short call candidates: Aha, Yeah, Yes Sir Leon and
+All right. Words and speaker still require listening review.
 Unreviewed calls stay out of usable pads.
 
-The instrumental bench has14steel and5fiddle estimates. The latest tests include
+The instrumental bench has15steel and5fiddle estimates. The latest steel test
+spans the complete48-bar final A/B/C head of Steel Guitar Rag, with melodic
+pickup and final decay retained. Each written section is16bars in2/4. The
+separated guitar estimate carries the matched upper melody throughout all three
+sections; exact take, lower chord voices and isolation purity remain unapproved.
+Three near-silent bass/drums results and the weaker other-model assignment were
+held privately. They are excluded from the new ZIP.
+
+Earlier tests include
 two steel passages following Leon cues in St. Louis Blues and I Don't Love Nobody,
 and the instrumental break between sung passages in She's Killing Me as a fiddle
 estimate. Their instrument purity, exact attacks/cadences and full-solo scope need
@@ -34,11 +41,16 @@ The repair bench pairs29 alternate vocal extractions with their original failed
 isolated cuts. These are the same recorded occurrences. Keep repair, Needs trim
 and Still fail export separately without reviving the original failed selection.
 
-868 approximate section markers cover166recordings: vocal passages, instrumental
+1,033 approximate section markers cover191recordings: vocal passages, instrumental
 openings/endings and cue-supported handoffs. ASR alone does not verify complete
 verse/chorus/solo identity, chord/key or bar boundaries.
+Two Steel Guitar Rag maps now show score-supported opening A/B/C sections and
+different final-head candidates (ABC versus AC). Source-time boundaries still
+need audition. The earlier coarse spans remain archived in the research files.
 
-[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r4.zip): nine vocal candidates and three instrument tests, all separated and unreviewed.
+[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r5.zip): four vocal candidates and one complete48-bar steel-head estimate, all separated and unreviewed.
+
+[Previous call/instrument batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r4.zip): nine vocal candidates and three instrument tests.
 
 [Prior Spanish interlude batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031.zip): four vocal candidates and the Spanish interlude/backing estimates with loop bodies. All nine WAVs remain available at their original URLs.
 
