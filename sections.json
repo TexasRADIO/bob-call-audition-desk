@@ -36708,6 +36708,46 @@
       "bar_aligned": false,
       "cues": [],
       "overlap_policy": "Separate instrument-role/form layer alongside ASR broad instrumental passages"
+    },
+    {
+      "source_id": "bw-fb1f950082e029a9-2-05",
+      "source_sha256": "fb1f950082e029a9e312fb51c7aee58e975e8f455d46f0fd60b4883f67bffa9c",
+      "source_title": "Steel Guitar Rag",
+      "source_album": "San Antonio Rose [Box Set][CD02]",
+      "start_seconds": 113.40764172335601,
+      "end_seconds": 130.88555555555556,
+      "id": "section-steel-rag-final-a16-band-r14",
+      "label": "Steel Guitar Rag · final A16 · band backing",
+      "role": "instrumental",
+      "layer": "backing_texture",
+      "section_kind_hypothesis": "whole_final_head_strain",
+      "boundary_status": "Full16-bar2/4 source strain, independent comping attacks and quiet cuts before entrances; actual full phrase, natural seam and purity still for listening review.",
+      "form_status": "Full16-bar source strain and independent comping pulse; backing/tool layer inside previously published48barhead, no new performance",
+      "key": null,
+      "chord": null,
+      "bar_aligned": false,
+      "cues": [],
+      "overlap_policy": "Separate backing layer alongside R5complete head section rows"
+    },
+    {
+      "source_id": "bw-fb1f950082e029a9-2-05",
+      "source_sha256": "fb1f950082e029a9e312fb51c7aee58e975e8f455d46f0fd60b4883f67bffa9c",
+      "source_title": "Steel Guitar Rag",
+      "source_album": "San Antonio Rose [Box Set][CD02]",
+      "start_seconds": 130.88555555555556,
+      "end_seconds": 148.24433106575964,
+      "id": "section-steel-rag-final-b16-band-r14",
+      "label": "Steel Guitar Rag · final B16 · band backing",
+      "role": "instrumental",
+      "layer": "backing_texture",
+      "section_kind_hypothesis": "whole_final_head_strain",
+      "boundary_status": "Full16-bar2/4 source strain, independent comping attacks and quiet cuts before entrances; actual full phrase, natural seam and purity still for listening review.",
+      "form_status": "Full16-bar source strain and independent comping pulse; backing/tool layer inside previously published48barhead, no new performance",
+      "key": null,
+      "chord": null,
+      "bar_aligned": false,
+      "cues": [],
+      "overlap_policy": "Separate backing layer alongside R5complete head section rows"
     }
   ]
 }
