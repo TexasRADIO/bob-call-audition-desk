@@ -5,11 +5,11 @@
 103 user-kept vocal extracts feed the AAH HAA!, YEAH!, encouragement and player-cue
 pads. The signature pad has13 kept variants; Yeah has8. Pads shuffle distinct
 occurrences before repeating. Your39 skips remain failed extractions. Current
-catalogue:265 call entries,103kept,39failed and123pending;50are new audition tests.
+catalogue:267 call entries,103kept,39failed and125pending;52are new audition tests.
 
-The latest batch adds two short Yeah candidates from How Can It Be Wrong,
-Let's play from This Is Southland, All right from Takin' It Home, and a complete
-Yes/yes pair from This Is Southland, counted together as one occurrence.
+The latest batch adds two short Yeah candidates from What's The Use To Take You
+Back Again and There's Going To Be A Party. The preceding batch added two other
+Yeahs, Let's play, All right and a complete Yes/yes pair counted as one occurrence.
 Words and speaker still require listening review.
 Unreviewed calls stay out of usable pads.
 
@@ -46,8 +46,15 @@ sequence matches at115.6BPM without transposition. Lower chord voices, exact
 matrix/take and isolation quality remain open. It is an interlude, not the full
 song head. Guitar/piano model estimates may share substantial leakage.
 
-21 backing previews from6recordings offer21exact-body loop downloads with3ms
-fades. The two new Tulsa backing files already contain only the complete marked
+23 backing previews from7recordings offer23exact-body loop downloads with3ms
+fades. The latest Stay a Little Longer bass/rhythm and piano/rhythm versions
+retain the complete first8-bar A section,19.033–27.531s, through its tonic cadence.
+The printed A-section and17independent bass half-note attacks support the extent;
+actual loop seam and leakage still require listening. These are two renditions
+of one recorded passage. The bass/drums part is sparse, with its input level
+checked before bounded normalization. Its preview and loop use the same WAV.
+
+The Tulsa full-solo backing files also contain only the complete marked
 body, so preview and loop download use the same WAV. Independent rhythm attacks
 and quiet waveform edges support their full16-bar boundaries; the audible seam
 still needs review. Alternative stems and loop exports do not count as
@@ -59,7 +66,7 @@ The repair bench pairs29 alternate vocal extractions with their original failed
 isolated cuts. These are the same recorded occurrences. Keep repair, Needs trim
 and Still fail export separately without reviving the original failed selection.
 
-1,227 approximate section markers cover222recordings: vocal passages, instrumental
+1,527 approximate section markers cover268recordings: vocal passages, instrumental
 openings/endings and cue-supported handoffs. ASR alone does not verify complete
 verse/chorus/solo identity, chord/key or bar boundaries.
 Two Steel Guitar Rag maps now show score-supported opening A/B/C sections and
@@ -68,7 +75,9 @@ need audition. The earlier coarse spans remain archived in the research files.
 Tulsa also has two explicit feature layers for the neck change. Its final steel
 chord overlaps the next vocal entrance; instrumental and vocal rows can overlap.
 
-[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r7.zip): five concise vocal candidates and the two-statement Tulsa opening fiddle estimate. Six separate WAVs, all unreviewed.
+[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r8.zip): two concise vocal candidates and two complete8-bar Stay A-section backing versions. Four separate WAVs, all unreviewed.
+
+[Tulsa opening fiddle batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r7.zip): five vocal candidates and the two-statement opening fiddle estimate. Six WAVs, all unreviewed.
 
 [Tulsa complete solo and backings batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r6.zip): three vocal candidates, the complete16-bar Tulsa steel solo estimate and two backing versions. Six separate WAVs, all unreviewed.
 
