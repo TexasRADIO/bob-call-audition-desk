@@ -1804,6 +1804,396 @@
   },
   "features": [
     {
+      "id": "steel-rag-cd02-19-41",
+      "file": "steel/steel-rag-cd02-19-41-guitar-model-estimate.wav",
+      "source_id": "bw-fb1f950082e029a9-2-05",
+      "source_sha256": "fb1f950082e029a9e312fb51c7aee58e975e8f455d46f0fd60b4883f67bffa9c",
+      "start_seconds": 19.0,
+      "end_seconds": 41.0,
+      "performer_hypothesis": "Leon McAuliffe, probable from same-source automatic spoken Leon introduction",
+      "performer_verified": false,
+      "instrument_identity_status": "steel-feature hypothesis, not independently verified isolated steel",
+      "isolation_status": "htdemucs_6s guitar estimate in selected feature passage; other instruments/artifacts may remain",
+      "model": "htdemucs_6s, CPU shifts0 overlap.25 segment7.8",
+      "wav_sha256": "0f71260ba327f506516f2db451ee918dd1f7d85ec5c7b4980dd8534c07e00b12",
+      "classification_evidence": [
+        "source title Steel Guitar Rag",
+        "same-source automatic introduction hypothesis names Leon at4.6–7.2s",
+        "not an accompaniment stem; guitar-target model output from22s feature probe"
+      ],
+      "human_listening_reviewed": false,
+      "reused_existing_estimate": true,
+      "is_original_or_context_audio": false,
+      "source_title": "Steel Guitar Rag",
+      "source_album": "San Antonio Rose [Box Set][CD02]",
+      "source_file": "2-05 Steel Guitar Rag.mp3",
+      "sample_rate": 44100,
+      "frames": 970200,
+      "duration_seconds": 22.0,
+      "label": "Steel Guitar Rag steel-feature guitar-model estimate [19–41s]",
+      "classification_status": "automatic_instrument_estimate_unverified",
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "verified_isolated_steel": false,
+      "source_start_sample_44100": 837900,
+      "source_end_sample_44100": 1808100,
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 837900,
+      "source_end_sample_native": 1808100,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 970200,
+      "performer": "Leon McAuliffe, probable from same-source automatic spoken Leon introduction",
+      "kind": "steel"
+    },
+    {
+      "id": "steel-rag-cd10-9-22",
+      "file": "steel/steel-rag-cd10-9-22-guitar-model-estimate.wav",
+      "source_id": "bw-c7aeda8c0d9c8348-10-01",
+      "source_sha256": "c7aeda8c0d9c834844ef8137fdde9057ec702e66c687a843b050be80dbdad45e",
+      "source_title": "Steel Guitar Rag",
+      "source_album": "San Antonio Rose [Box Set][CD10]",
+      "source_file": "10-01 Steel Guitar Rag.mp3",
+      "start_seconds": 9.0,
+      "end_seconds": 22.0,
+      "source_start_sample_44100": 396900,
+      "source_end_sample_44100": 970200,
+      "performer_hypothesis": "Leon McAuliffe, probable from same-source automatic spoken Leon cue",
+      "performer_verified": false,
+      "performer_recording_evidence": {
+        "basis": "Same-source automatic phrase at2.74–8.1s includes Kick it off Leon; source words/speaker not human verified."
+      },
+      "instrument_identity_status": "steel-feature hypothesis, not independently verified isolated steel",
+      "isolation_status": "targeted htdemucs_6s guitar-model estimate in selected feature passage; accompanying guitar/other leakage and artifacts may remain",
+      "model": "htdemucs_6s cached local CPU1 thread, shifts0 overlap.25 segment7.8",
+      "wav_sha256": "1be15b635efcd879615e9557eac9184e835f6b5881e69b2484392f9c090708d2",
+      "sample_rate": 44100,
+      "frames": 573300,
+      "source_window_reason": "Feature-test window in named steel-feature recording; not a measured solo boundary and absence of recognized speech is not proof of a solo.",
+      "source_rms": 0.09935236722230911,
+      "guitar_source_rms_ratio": 0.9570595812521012,
+      "all_model_stem_rms": {
+        "drums": {
+          "rms": 5.1990598876727745e-05,
+          "peak": 0.001298201153986156,
+          "sha256": "8dd5a8bb68859ef6cca39e2727871e167c5246234204109f83cc2931c833d8ce"
+        },
+        "bass": {
+          "rms": 0.0005087065510451794,
+          "peak": 0.019218793138861656,
+          "sha256": "3d6a4577aed68b0bef56c7fc44b84698a2456e84b74b5fb327f1fba9095b7940"
+        },
+        "other": {
+          "rms": 0.0005394449690356851,
+          "peak": 0.048602744936943054,
+          "sha256": "27ab6dbcf634e1ddf61dc5bc282595407d81859266bb3750d91f05a50eab9566"
+        },
+        "vocals": {
+          "rms": 0.013476209715008736,
+          "peak": 0.18178142607212067,
+          "sha256": "797a5f46327a708ece52eced273777a9c140fe07289eb484d6a476cab5615b3b"
+        },
+        "guitar": {
+          "rms": 0.09508613497018814,
+          "peak": 0.4171673059463501,
+          "sha256": "1be15b635efcd879615e9557eac9184e835f6b5881e69b2484392f9c090708d2"
+        },
+        "piano": {
+          "rms": 7.552021997980773e-05,
+          "peak": 0.00238502724096179,
+          "sha256": "21887ce0df561175efb8c8bdcba2f0ec1c495f70501a292eb93bc850a3e6eb38"
+        }
+      },
+      "signal_acceptance": "finite and guitar estimate RMS >15% of original window RMS; technical floor only, not isolation purity",
+      "status": "candidate_test_ready",
+      "human_listening_reviewed": false,
+      "verified_isolated_steel": false,
+      "is_original_or_context_audio": false,
+      "processing_seconds": 16.168029069900513,
+      "peak_process_rss_bytes": 1658765312,
+      "duration_seconds": 13.0,
+      "label": "Steel Guitar Rag steel-feature guitar-model estimate [9–22s]",
+      "classification_status": "automatic_instrument_estimate_unverified",
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 396900,
+      "source_end_sample_native": 970200,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 573300,
+      "performer": "Leon McAuliffe, probable from same-source automatic spoken Leon cue",
+      "kind": "steel"
+    },
+    {
+      "id": "texas-playboy-rag-cd07-14-12-32",
+      "file": "steel/texas-playboy-rag-cd07-14-12-32-guitar-model-estimate.wav",
+      "source_id": "bw-c53d08093fc36820-7-14",
+      "source_sha256": "c53d08093fc368207a763b0e23679e3c3d9e01f2f1cea7f9db52cd3e7ad40054",
+      "source_title": "Texas Playboy Rag",
+      "source_album": "San Antonio Rose [Box Set][CD07]",
+      "source_file": "7-14 Texas Playboy Rag.mp3",
+      "start_seconds": 12.0,
+      "end_seconds": 32.0,
+      "source_start_sample_44100": 529200,
+      "source_end_sample_44100": 1411200,
+      "performer_hypothesis": "Noel Boggs association, provisional; exact local take match unresolved",
+      "performer_verified": false,
+      "performer_recording_evidence": {
+        "url": "https://www.qobuz.com/gb-en/album/the-essential-bob-wills-and-his-texas-playboys-bob-wills-and-his-texas-playboys/0886444284714",
+        "basis": "Label-supplied track13 Texas Playboy Rag credits Noel Boggs, Steel Guitar;1945 release; listed2:36.",
+        "local_match": "Local title/duration association only; exact source transfer/take has not been independently matched. Do not promote this to a verified local player attribution."
+      },
+      "instrument_identity_status": "steel-feature hypothesis, not independently verified isolated steel",
+      "isolation_status": "targeted htdemucs_6s guitar-model estimate in selected feature passage; accompanying guitar/other leakage and artifacts may remain",
+      "model": "htdemucs_6s cached local CPU1 thread, shifts0 overlap.25 segment7.8",
+      "wav_sha256": "d574805f852962f207062bc4d4412f8ce2df0337083d9f1deb71d035df3b118f",
+      "sample_rate": 44100,
+      "frames": 882000,
+      "source_window_reason": "Feature-test window in named steel-feature recording; not a measured solo boundary and absence of recognized speech is not proof of a solo.",
+      "source_rms": 0.0902538076043129,
+      "guitar_source_rms_ratio": 0.7677891101624852,
+      "all_model_stem_rms": {
+        "drums": {
+          "rms": 6.836956890765578e-05,
+          "peak": 0.002506673103198409,
+          "sha256": "4e6323dd266904b475113197a681a9cb592338f81f16f827e6547b570f1bd04f"
+        },
+        "bass": {
+          "rms": 7.377497968263924e-05,
+          "peak": 0.00110442319419235,
+          "sha256": "8d95db6d6efdb3aa217a0ba449e8e6ca7945e605d8063fbcd918926c9141dcb2"
+        },
+        "other": {
+          "rms": 0.04052851349115372,
+          "peak": 0.3775028884410858,
+          "sha256": "03d811c58606fe2a31daa5a6ab6d2525c9e209d6116008d636c10c2243bf49e3"
+        },
+        "vocals": {
+          "rms": 0.0001114984552259557,
+          "peak": 0.006954936310648918,
+          "sha256": "0da6acfb55972b004cf1a101c052082bd3785f3ebc427a7c5fe2292b86892306"
+        },
+        "guitar": {
+          "rms": 0.06929589062929153,
+          "peak": 0.501659631729126,
+          "sha256": "d574805f852962f207062bc4d4412f8ce2df0337083d9f1deb71d035df3b118f"
+        },
+        "piano": {
+          "rms": 0.007069840095937252,
+          "peak": 0.10717397928237915,
+          "sha256": "7a698706ae986100fb2f1f25d53c7035c0b2c6ade685b347bbff5eadda6c761c"
+        }
+      },
+      "signal_acceptance": "finite and guitar estimate RMS >15% of original window RMS; technical floor only, not isolation purity",
+      "status": "candidate_test_ready",
+      "human_listening_reviewed": false,
+      "verified_isolated_steel": false,
+      "is_original_or_context_audio": false,
+      "processing_seconds": 26.670302867889404,
+      "peak_process_rss_bytes": 1658765312,
+      "duration_seconds": 20.0,
+      "label": "Texas Playboy Rag steel-feature guitar-model estimate [12–32s]",
+      "classification_status": "automatic_instrument_estimate_unverified",
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 529200,
+      "source_end_sample_native": 1411200,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 882000,
+      "performer": "Noel Boggs association, provisional; exact local take match unresolved",
+      "kind": "steel"
+    },
+    {
+      "id": "texas-playboy-rag-cd07-10-13-33",
+      "file": "steel/texas-playboy-rag-cd07-10-13-33-guitar-model-estimate.wav",
+      "source_id": "bw-43721b3cd98cab8e-7-10",
+      "source_sha256": "43721b3cd98cab8e71a0d94907723532fb1282654e5a1f84f8c44a2869fdc9d1",
+      "source_title": "Texas Playboy Rag",
+      "source_album": "San Antonio Rose [Box Set][CD07]",
+      "source_file": "7-10 Texas Playboy Rag.mp3",
+      "start_seconds": 13.0,
+      "end_seconds": 33.0,
+      "source_start_sample_44100": 573300,
+      "source_end_sample_44100": 1455300,
+      "performer_hypothesis": "Noel Boggs association, less secure alternate local version; exact take unresolved",
+      "performer_verified": false,
+      "performer_recording_evidence": {
+        "url": "https://www.qobuz.com/gb-en/album/the-essential-bob-wills-and-his-texas-playboys-bob-wills-and-his-texas-playboys/0886444284714",
+        "basis": "Label-supplied track13 Texas Playboy Rag credits Noel Boggs, Steel Guitar;1945 release; listed2:36.",
+        "local_match": "Local title/duration association only; exact source transfer/take has not been independently matched. Do not promote this to a verified local player attribution."
+      },
+      "instrument_identity_status": "steel-feature hypothesis, not independently verified isolated steel",
+      "isolation_status": "targeted htdemucs_6s guitar-model estimate in selected feature passage; accompanying guitar/other leakage and artifacts may remain",
+      "model": "htdemucs_6s cached local CPU1 thread, shifts0 overlap.25 segment7.8",
+      "wav_sha256": "5d0b479a8856f5bf801eece545e040fa324621e35f820cb51fb02cd574eb5e4a",
+      "sample_rate": 44100,
+      "frames": 882000,
+      "source_window_reason": "Feature-test window in named steel-feature recording; not a measured solo boundary and absence of recognized speech is not proof of a solo.",
+      "source_rms": 0.09657322615385056,
+      "guitar_source_rms_ratio": 0.5940762726647044,
+      "all_model_stem_rms": {
+        "drums": {
+          "rms": 0.007919590920209885,
+          "peak": 0.11529470980167389,
+          "sha256": "78e6f9e3c433331be5bee516c8fb4fd7db4f05a217c154ae2ef83bc84bec6435"
+        },
+        "bass": {
+          "rms": 0.008542080409824848,
+          "peak": 0.054788026958703995,
+          "sha256": "32d8dcefafc06d4b15b59b3cf09dc3861c05c196ac0825786cd358307380203e"
+        },
+        "other": {
+          "rms": 0.0619717538356781,
+          "peak": 0.42469337582588196,
+          "sha256": "91318c510a336b674f7b64e5f06d034f51d6245f1041fca8808eab1618d2ef2f"
+        },
+        "vocals": {
+          "rms": 0.00019622989930212498,
+          "peak": 0.007461230270564556,
+          "sha256": "80ba6413c80cd09aad316507b9918ab664e0efb7f8a0f0c73ace1c7ff0932cf4"
+        },
+        "guitar": {
+          "rms": 0.05737186223268509,
+          "peak": 0.4703707993030548,
+          "sha256": "5d0b479a8856f5bf801eece545e040fa324621e35f820cb51fb02cd574eb5e4a"
+        },
+        "piano": {
+          "rms": 0.003848605090752244,
+          "peak": 0.08748658746480942,
+          "sha256": "38741eed76024e4590318f7b2f23fd05cbebfec324a5cde13c38724ec3917357"
+        }
+      },
+      "signal_acceptance": "finite and guitar estimate RMS >15% of original window RMS; technical floor only, not isolation purity",
+      "status": "candidate_test_ready",
+      "human_listening_reviewed": false,
+      "verified_isolated_steel": false,
+      "is_original_or_context_audio": false,
+      "processing_seconds": 14.130202770233154,
+      "peak_process_rss_bytes": 1807695872,
+      "duration_seconds": 20.0,
+      "label": "Texas Playboy Rag steel-feature guitar-model estimate [13–33s]",
+      "classification_status": "automatic_instrument_estimate_unverified",
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 573300,
+      "source_end_sample_native": 1455300,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 882000,
+      "performer": "Noel Boggs association, less secure alternate local version; exact take unresolved",
+      "kind": "steel"
+    },
+    {
+      "id": "hometown-stomp-cd09-12-30",
+      "file": "steel/hometown-stomp-cd09-12-30-guitar-model-estimate.wav",
+      "source_id": "bw-43a56e39594deae3-9-03",
+      "source_sha256": "43a56e39594deae303bd65e4535ec63d00ad2062748de51f5961cf33c872180e",
+      "source_title": "Hometown Stomp",
+      "source_album": "San Antonio Rose [Box Set][CD09]",
+      "source_file": "9-03 Hometown Stomp.mp3",
+      "start_seconds": 12.0,
+      "end_seconds": 30.0,
+      "source_start_sample_44100": 529200,
+      "source_end_sample_44100": 1323000,
+      "performer_hypothesis": "Herb Remington, probable from same-source automatic spoken steel/player introduction",
+      "performer_verified": false,
+      "performer_recording_evidence": {
+        "basis": "Same-source unprompted ASR introduction explicitly hypothesizes Remington steel and Herb Remington playing it; not human words/player verification.",
+        "supporting_track_credit_url": "https://www.qobuz.com/gb-en/album/the-essential-bob-wills-and-his-texas-playboys-bob-wills-and-his-texas-playboys/0886444284714",
+        "local_take_match": "same local-source cue is primary context; commercial track19 lists Herb Remington steel but exact reissue/take match not independently verified"
+      },
+      "instrument_identity_status": "steel-feature hypothesis, not independently verified isolated steel",
+      "isolation_status": "targeted htdemucs_6s guitar-model estimate in selected feature passage; accompanying guitar/other leakage and artifacts may remain",
+      "model": "htdemucs_6s cached local CPU1 thread, shifts0 overlap.25 segment7.8",
+      "wav_sha256": "20fd41c6f751738ac53622a94c8d5ce8b9ba7c68c2f8afb023b41ec1ca2f14b0",
+      "sample_rate": 44100,
+      "frames": 793800,
+      "source_window_reason": "Feature-test window in named steel-feature recording; not a measured solo boundary and absence of recognized speech is not proof of a solo.",
+      "source_rms": 0.08871140331029892,
+      "guitar_source_rms_ratio": 0.7592428865130163,
+      "all_model_stem_rms": {
+        "drums": {
+          "rms": 0.014027669094502926,
+          "peak": 0.1874130219221115,
+          "sha256": "8dffec52cf3ec6962c3cced68560d307cd90915eeb5a4367b28848bb656933d8"
+        },
+        "bass": {
+          "rms": 0.009792103432118893,
+          "peak": 0.06901094317436218,
+          "sha256": "6a13b69dace3cbeffd3724617d0fbcea236f89f4fcfe4f7e94644fa9ff261c71"
+        },
+        "other": {
+          "rms": 0.0012451440561562777,
+          "peak": 0.0334903709590435,
+          "sha256": "f634f0f73afe7f9b87132f2cd97f74b7337b67cb5d4f85ee1689180ee4fe2d3d"
+        },
+        "vocals": {
+          "rms": 0.04592607170343399,
+          "peak": 0.43046674132347107,
+          "sha256": "97d60aa4cbc741f2e0a4bccb97edc4c8a39c4efe1a75ac7c3432723cc1da1143"
+        },
+        "guitar": {
+          "rms": 0.0673535019159317,
+          "peak": 0.4302859306335449,
+          "sha256": "20fd41c6f751738ac53622a94c8d5ce8b9ba7c68c2f8afb023b41ec1ca2f14b0"
+        },
+        "piano": {
+          "rms": 0.00011280032776994631,
+          "peak": 0.004510755185037851,
+          "sha256": "c4ff2c916d24b88d2b7b3d8fcc90109220f5c85cef539a513f27bbd8a66a6813"
+        }
+      },
+      "signal_acceptance": "finite and guitar estimate RMS >15% of original window RMS; technical floor only, not isolation purity",
+      "status": "candidate_test_ready",
+      "human_listening_reviewed": false,
+      "verified_isolated_steel": false,
+      "is_original_or_context_audio": false,
+      "processing_seconds": 41.524282932281494,
+      "peak_process_rss_bytes": 1234436096,
+      "label": "Hometown Stomp steel-feature guitar-model estimate [12–30s]",
+      "duration_seconds": 18.0,
+      "classification_status": "automatic_instrument_estimate_unverified",
+      "player_attribution_status": "provisional; no human/independent exact-take verification",
+      "native_sample_rate": 44100,
+      "source_start_sample_native": 529200,
+      "source_end_sample_native": 1323000,
+      "source_time_mapping": "source seconds; nearest native/output-rate sample; no musical boundary confirmation",
+      "listening_review_status": "not auditioned",
+      "bleed_artifact_flags": [
+        "separation bleed/artifacts possible; no auditory purity assessment"
+      ],
+      "channels": 2,
+      "output_subtype": "FLOAT",
+      "output_start_sample": 0,
+      "output_end_sample": 793800,
+      "performer": "Herb Remington, probable from same-source automatic spoken steel/player introduction",
+      "kind": "steel"
+    },
+    {
       "id": "fiddle-fat-boy",
       "kind": "fiddle",
       "file": "features/fiddle-fat-boy.wav",
@@ -56160,5 +56550,187 @@
       }
     }
   ],
-  "review_status": "268 user-kept cuts;54 failures excluded from pads. All322call occurrences reviewed. User comments retained verbatim. Vocal repair comparisons withdrawn at user request."
+  "review_status": "268 user-kept cuts;54 failures excluded from pads. All322call occurrences reviewed. User comments retained verbatim. Vocal repair comparisons withdrawn at user request.",
+  "feature_review_defaults": {
+    "fiddle-fat-boy": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:51:42.711Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "fiddle-bob-wills-boogie": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T12:52:00.204Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "fiddle-swing-blues": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:52:08.503Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-guitar-stomp": {
+      "comment": "horns",
+      "reviewed_at": "2026-10-31T12:52:24.747Z",
+      "status": "keep",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-silver-bells": {
+      "comment": "fiddle ",
+      "reviewed_at": "2026-10-31T12:52:42.863Z",
+      "status": "keep",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-bw-6d69bb252cf3ed29-10-19-1708032-2654208-steel": {
+      "comment": "steel chords ",
+      "reviewed_at": "2026-10-31T12:53:11.748Z",
+      "status": "skip",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-tulsa-checked-eight-bars-steel": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:53:47.529Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-bw-1fd3a90969e45536-1-15-3913728-4536320-steel": {
+      "comment": "guitar solo ",
+      "reviewed_at": "2026-10-31T12:53:59.696Z",
+      "status": "keep",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-bw-99687b0091cf33f8-2-23-5204480-6056448-fiddle": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T12:54:13.713Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-bw-f35d46b39b609c78-2-06-1774592-2293248-steel": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:54:27.173Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-spanish-full16-steel": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:54:40.518Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-bw-2eb959d038ae7e62-1-09-4767744-5460480-steel": {
+      "comment": "gui",
+      "reviewed_at": "2026-10-31T12:54:58.576Z",
+      "status": "skip",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-bw-4b7a10990c8795fa-5-05-2505728-3215872-steel": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:55:08.241Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "fiddle-shes-killing-me-interlude-r4": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T12:55:17.364Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-steel-rag-final48-guitar": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:55:26.646Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "phrase-tulsa-full16-steel": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:55:32.780Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "fiddle-tulsa-opening-two-statements-r7": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:55:45.153Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "fiddle-tulsa-middle-full16-r10": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T12:55:57.871Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    }
+  },
+  "phrase_review_defaults": {},
+  "review_recovery": {
+    "sources": [
+      {
+        "file": "Bob-call-review.json",
+        "sha256": "af41bd3fdb930f44e3b6978eb29d21877d1a623c9fe56b6e43f37582eabec990",
+        "bytes": 57849,
+        "exported_at": "2026-10-31T11:30:25.812Z",
+        "counts": {
+          "reviews": {
+            "keep": 181,
+            "skip": 45
+          },
+          "feature_reviews": {},
+          "phrase_reviews": {}
+        }
+      },
+      {
+        "file": "Bob-call-review (1).json",
+        "sha256": "75f671296eae97ef1bc1a0be024e71959fa70b26f976aae5ea3e591c455ed8b7",
+        "bytes": 85729,
+        "exported_at": "2026-10-31T11:59:11.603Z",
+        "counts": {
+          "reviews": {
+            "keep": 268,
+            "skip": 54
+          },
+          "feature_reviews": {},
+          "phrase_reviews": {}
+        }
+      },
+      {
+        "file": "Bob-call-review-2.json",
+        "sha256": "2cf04c2dca33014178963e9630eaeedb277a90e162f080677a4e2a2716b35c71",
+        "bytes": 57849,
+        "exported_at": "2026-10-31T12:50:04.220Z",
+        "counts": {
+          "reviews": {
+            "keep": 181,
+            "skip": 45
+          },
+          "feature_reviews": {},
+          "phrase_reviews": {}
+        }
+      },
+      {
+        "file": "Bob-call-review-3.json",
+        "sha256": "b93cd4e3d7eb1cd0d0b34b12fb71398d6cd49e68bf746b598c281d6b119abc98",
+        "bytes": 89284,
+        "exported_at": "2026-10-31T12:57:05.337Z",
+        "counts": {
+          "reviews": {
+            "keep": 268,
+            "skip": 54
+          },
+          "feature_reviews": {
+            "keep": 13,
+            "skip": 5
+          },
+          "phrase_reviews": {}
+        }
+      },
+      {
+        "file": "Bob-call-review (2).json",
+        "sha256": "64b0eadeb418d4c8a99bc0c30a47fd285c7eea1c88c0a326f9a0dd9a7d59ce0d",
+        "bytes": 85729,
+        "exported_at": "2026-10-31T12:59:03.647Z",
+        "counts": {
+          "reviews": {
+            "keep": 268,
+            "skip": 54
+          },
+          "feature_reviews": {},
+          "phrase_reviews": {}
+        }
+      }
+    ],
+    "policy": "Union by review kind and stable ID; newest individual reviewed_at wins conflicting fields. Missing rows never delete older decisions. Original fields and comments retained.",
+    "feature_reviewed": 18,
+    "feature_kept": 13,
+    "feature_failed": 5,
+    "feature_pending": 12,
+    "backing_pending": 35,
+    "repairs": "Withdrawn at owner request; historical repair reviews preserved privately, not reactivated."
+  }
 }
