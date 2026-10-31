@@ -56554,17 +56554,17 @@
   "feature_review_defaults": {
     "fiddle-fat-boy": {
       "status": "keep",
-      "reviewed_at": "2026-10-31T12:51:42.711Z",
+      "reviewed_at": "2026-10-31T13:00:06.646Z",
       "review_scope": "sample usability; skip means failed extraction"
     },
     "fiddle-bob-wills-boogie": {
       "status": "skip",
-      "reviewed_at": "2026-10-31T12:52:00.204Z",
+      "reviewed_at": "2026-10-31T13:00:14.721Z",
       "review_scope": "sample usability; skip means failed extraction"
     },
     "fiddle-swing-blues": {
-      "status": "keep",
-      "reviewed_at": "2026-10-31T12:52:08.503Z",
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:00:23.118Z",
       "review_scope": "sample usability; skip means failed extraction"
     },
     "steel-guitar-stomp": {
@@ -56646,91 +56646,361 @@
       "status": "keep",
       "reviewed_at": "2026-10-31T12:55:57.871Z",
       "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-silver-harmonics-passage-focused-r11": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:01:14.507Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-silver-harmonics-passage-fuller-r11": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:01:17.117Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "fiddle-ida-red-opening-a8-r12": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:01:25.849Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-home-san-antone-complete-passage-r13": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:01:31.533Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-shame-on-you-murphey-reference16-r15": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:01:36.783Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-lone-star-rag-complete-passage-r16": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:01:41.720Z",
+      "review_scope": "sample usability; skip means failed extraction"
+    },
+    "steel-osage-stomp-complete-passage-r17": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:01:56.467Z",
+      "review_scope": "sample usability; skip means failed extraction"
     }
   },
-  "phrase_review_defaults": {},
+  "phrase_review_defaults": {
+    "phrase-bw-3a681da2718280df-7-16-3230208-3960832-bass-drums": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:02:17.898Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-bw-3a681da2718280df-7-16-3230208-3960832-piano-rhythm": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:03:30.141Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-bw-3a681da2718280df-7-16-78848-1522176-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:03:24.263Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-bw-6e0dbd898c859c6c-1-22-23040-699392-bass-drums": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:03:42.879Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-bw-6e0dbd898c859c6c-1-22-23040-699392-piano-rhythm": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:03:53.428Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-bw-6e0dbd898c859c6c-1-22-699392-2035712-bass-drums": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:04:00.470Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-bw-9cc2d9dae88d4b1c-1-06-6656-745472-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:04:12.276Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-bw-9cc2d9dae88d4b1c-1-06-6656-745472-piano-rhythm": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:04:30.560Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-bw-9cc2d9dae88d4b1c-1-06-745472-2228224-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:04:43.580Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-bw-b97e4d64fb3d1dfb-7-17-33792-745984-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:04:49.362Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-bw-b97e4d64fb3d1dfb-7-17-33792-745984-piano-rhythm": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:05:00.876Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-bw-b97e4d64fb3d1dfb-7-17-3263488-4665856-bass-drums": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:05:08.849Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-bw-6d69bb252cf3ed29-10-19-1708032-2654208-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:05:24.597Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-bw-6d69bb252cf3ed29-10-19-1708032-2654208-piano-rhythm": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:05:32.274Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-bw-6d69bb252cf3ed29-10-19-4075520-5958656-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:05:42.049Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-tulsa-checked-eight-bars-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:05:50.064Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-tulsa-checked-eight-bars-piano-rhythm": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:06:08.961Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-spanish-full16-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:06:22.547Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-spanish-full16-piano-rhythm": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:06:35.694Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-tulsa-full16-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:06:41.934Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-tulsa-full16-piano-rhythm": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:06:51.859Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-stay-a8-bass-drums": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:06:58.986Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-stay-a8-piano-rhythm": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:07:06.418Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-stay-b8-bass-drums": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:07:14.640Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-stay-b8-piano-rhythm": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:07:27.005Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-tulsa-fiddle-cycle16-bass-drums": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:07:41.871Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-tulsa-fiddle-cycle16-piano-rhythm": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:07:54.135Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-ida-red-verse1-8-bass-rhythm-r12": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:08:15.908Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-ida-red-verse1-8-piano-rhythm-r12": {
+      "status": "skip",
+      "reviewed_at": "2026-10-31T13:08:37.464Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": false
+    },
+    "phrase-home-san-antone-steel-body16-bass-rhythm-r13": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:09:05.036Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-home-san-antone-steel-body16-piano-rhythm-r13": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:09:15.955Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-steel-rag-final-a16-band-r14": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:09:27.932Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-steel-rag-final-b16-band-r14": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:09:38.518Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-lone-star-rag-steel-body16-bass-rhythm-r16": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:09:45.833Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    },
+    "phrase-osage-stomp-steel-body12-bass-rhythm-r17": {
+      "status": "keep",
+      "reviewed_at": "2026-10-31T13:09:54.732Z",
+      "review_scope": "backing sample usability and whole musical phrase",
+      "phrase_complete_verified": true
+    }
+  },
   "review_recovery": {
-    "sources": [
-      {
-        "file": "Bob-call-review.json",
-        "sha256": "af41bd3fdb930f44e3b6978eb29d21877d1a623c9fe56b6e43f37582eabec990",
-        "bytes": 57849,
-        "exported_at": "2026-10-31T11:30:25.812Z",
-        "counts": {
-          "reviews": {
-            "keep": 181,
-            "skip": 45
-          },
-          "feature_reviews": {},
-          "phrase_reviews": {}
-        }
-      },
-      {
-        "file": "Bob-call-review (1).json",
-        "sha256": "75f671296eae97ef1bc1a0be024e71959fa70b26f976aae5ea3e591c455ed8b7",
-        "bytes": 85729,
-        "exported_at": "2026-10-31T11:59:11.603Z",
-        "counts": {
-          "reviews": {
-            "keep": 268,
-            "skip": 54
-          },
-          "feature_reviews": {},
-          "phrase_reviews": {}
-        }
-      },
-      {
-        "file": "Bob-call-review-2.json",
-        "sha256": "2cf04c2dca33014178963e9630eaeedb277a90e162f080677a4e2a2716b35c71",
-        "bytes": 57849,
-        "exported_at": "2026-10-31T12:50:04.220Z",
-        "counts": {
-          "reviews": {
-            "keep": 181,
-            "skip": 45
-          },
-          "feature_reviews": {},
-          "phrase_reviews": {}
-        }
-      },
-      {
-        "file": "Bob-call-review-3.json",
-        "sha256": "b93cd4e3d7eb1cd0d0b34b12fb71398d6cd49e68bf746b598c281d6b119abc98",
-        "bytes": 89284,
-        "exported_at": "2026-10-31T12:57:05.337Z",
-        "counts": {
-          "reviews": {
-            "keep": 268,
-            "skip": 54
-          },
-          "feature_reviews": {
-            "keep": 13,
-            "skip": 5
-          },
-          "phrase_reviews": {}
-        }
-      },
-      {
-        "file": "Bob-call-review (2).json",
-        "sha256": "64b0eadeb418d4c8a99bc0c30a47fd285c7eea1c88c0a326f9a0dd9a7d59ce0d",
-        "bytes": 85729,
-        "exported_at": "2026-10-31T12:59:03.647Z",
-        "counts": {
-          "reviews": {
-            "keep": 268,
-            "skip": 54
-          },
-          "feature_reviews": {},
-          "phrase_reviews": {}
-        }
-      }
-    ],
+    "source": "Bob-call-review-4.json",
+    "source_sha256": "60b336afe78d5cb63df80cd39e36c69e36d92e35417444fe5a8a67f44f6322d7",
+    "source_exported_at": "2026-10-31T13:11:14.129Z",
     "policy": "Union by review kind and stable ID; newest individual reviewed_at wins conflicting fields. Missing rows never delete older decisions. Original fields and comments retained.",
-    "feature_reviewed": 18,
-    "feature_kept": 13,
-    "feature_failed": 5,
-    "feature_pending": 12,
-    "backing_pending": 35,
-    "repairs": "Withdrawn at owner request; historical repair reviews preserved privately, not reactivated."
-  }
+    "feature_reviewed": 25,
+    "feature_kept": 18,
+    "feature_failed": 7,
+    "feature_pending": 5,
+    "backing_reviewed": 35,
+    "backing_kept": 21,
+    "backing_failed": 14,
+    "backing_pending": 0,
+    "pending_feature_ids": [
+      "steel-rag-cd02-19-41",
+      "steel-rag-cd10-9-22",
+      "texas-playboy-rag-cd07-14-12-32",
+      "texas-playboy-rag-cd07-10-13-33",
+      "hometown-stomp-cd09-12-30"
+    ],
+    "repairs": "Withdrawn; no reactivation"
+  },
+  "review_recovery_history": [
+    {
+      "sources": [
+        {
+          "file": "Bob-call-review.json",
+          "sha256": "af41bd3fdb930f44e3b6978eb29d21877d1a623c9fe56b6e43f37582eabec990",
+          "bytes": 57849,
+          "exported_at": "2026-10-31T11:30:25.812Z",
+          "counts": {
+            "reviews": {
+              "keep": 181,
+              "skip": 45
+            },
+            "feature_reviews": {},
+            "phrase_reviews": {}
+          }
+        },
+        {
+          "file": "Bob-call-review (1).json",
+          "sha256": "75f671296eae97ef1bc1a0be024e71959fa70b26f976aae5ea3e591c455ed8b7",
+          "bytes": 85729,
+          "exported_at": "2026-10-31T11:59:11.603Z",
+          "counts": {
+            "reviews": {
+              "keep": 268,
+              "skip": 54
+            },
+            "feature_reviews": {},
+            "phrase_reviews": {}
+          }
+        },
+        {
+          "file": "Bob-call-review-2.json",
+          "sha256": "2cf04c2dca33014178963e9630eaeedb277a90e162f080677a4e2a2716b35c71",
+          "bytes": 57849,
+          "exported_at": "2026-10-31T12:50:04.220Z",
+          "counts": {
+            "reviews": {
+              "keep": 181,
+              "skip": 45
+            },
+            "feature_reviews": {},
+            "phrase_reviews": {}
+          }
+        },
+        {
+          "file": "Bob-call-review-3.json",
+          "sha256": "b93cd4e3d7eb1cd0d0b34b12fb71398d6cd49e68bf746b598c281d6b119abc98",
+          "bytes": 89284,
+          "exported_at": "2026-10-31T12:57:05.337Z",
+          "counts": {
+            "reviews": {
+              "keep": 268,
+              "skip": 54
+            },
+            "feature_reviews": {
+              "keep": 13,
+              "skip": 5
+            },
+            "phrase_reviews": {}
+          }
+        },
+        {
+          "file": "Bob-call-review (2).json",
+          "sha256": "64b0eadeb418d4c8a99bc0c30a47fd285c7eea1c88c0a326f9a0dd9a7d59ce0d",
+          "bytes": 85729,
+          "exported_at": "2026-10-31T12:59:03.647Z",
+          "counts": {
+            "reviews": {
+              "keep": 268,
+              "skip": 54
+            },
+            "feature_reviews": {},
+            "phrase_reviews": {}
+          }
+        }
+      ],
+      "policy": "Union by review kind and stable ID; newest individual reviewed_at wins conflicting fields. Missing rows never delete older decisions. Original fields and comments retained.",
+      "feature_reviewed": 18,
+      "feature_kept": 13,
+      "feature_failed": 5,
+      "feature_pending": 12,
+      "backing_pending": 35,
+      "repairs": "Withdrawn at owner request; historical repair reviews preserved privately, not reactivated."
+    }
+  ]
 }

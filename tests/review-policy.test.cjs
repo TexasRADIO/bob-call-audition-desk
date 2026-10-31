@@ -37,17 +37,21 @@ test('all families shuffle only kept distinct occurrences',()=>{
   assert.equal(pool.bag.length,1);assert.equal(pool.next().id,'a');
  }
 });
-test('recovered band decisions survive an empty or stale browser and preserve comments',()=>{
+test('latest band decisions survive an empty or stale browser and preserve comments',()=>{
  const library=JSON.parse(fs.readFileSync('manifest.json'));
  const base=library.feature_review_defaults;
  const rows=library.features.map(c=>policy.decision(c.id,base,{}));
- assert.equal(rows.filter(r=>r.status==='keep').length,13);
- assert.equal(rows.filter(r=>r.status==='skip').length,5);
- assert.equal(rows.filter(r=>!r.status).length,12);
+ assert.equal(rows.filter(r=>r.status==='keep').length,18);
+ assert.equal(rows.filter(r=>r.status==='skip').length,7);
+ assert.equal(rows.filter(r=>!r.status).length,5);
  assert.equal(rows.filter(r=>r.comment).length,5);
  for(const [id,comment] of [['steel-guitar-stomp','horns'],['steel-silver-bells','fiddle '],['phrase-bw-6d69bb252cf3ed29-10-19-1708032-2654208-steel','steel chords '],['phrase-bw-1fd3a90969e45536-1-15-3913728-4536320-steel','guitar solo '],['phrase-bw-2eb959d038ae7e62-1-09-4767744-5460480-steel','gui']]) assert.equal(base[id].comment,comment);
  const id='fiddle-fat-boy';
  assert.equal(policy.decision(id,base,{[id]:{status:'skip',reviewed_at:'2026-10-31T11:00:00Z'}}).status,'keep');
  assert.equal(policy.decision(id,base,{[id]:{status:'skip',reviewed_at:'2026-10-31T14:00:00Z'}}).status,'skip');
  assert.equal(library.repairs.length,0);
+ const phrases=library.phrases.map(c=>policy.decision(c.id,library.phrase_review_defaults,{}));
+ assert.equal(phrases.filter(r=>r.status==='keep').length,21);
+ assert.equal(phrases.filter(r=>r.status==='skip').length,14);
+ assert.equal(phrases.filter(r=>!r.status).length,0);
 });
