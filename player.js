@@ -58,7 +58,7 @@ $('#calls').addEventListener('click',e=>{
 BobReviewNotes.bind($('#calls'),'data-id',id=>effective(library.calls.find(c=>c.id===id)).review,(id,r)=>{reviews[id]=r;saveLocal()});
 for(const id of ['search','category','keptOnly'])$('#'+id).addEventListener(id==='search'?'input':'change',render);
 $('#saveReview').onclick=()=>{
-  const data={repair_reviews:window.BobRepairDesk?.exportReviews()||[],phrase_reviews:window.BobPhraseDesk?.exportReviews()||[],feature_reviews:featureClips.filter(c=>BobReviewPolicy.hasReview(featureDecision(c))).map(c=>({id:c.id,...featureDecision(c)})),schema:'bb-bob-local-review/v1',exported_at:new Date().toISOString(),reviews:allCalls().filter(c=>BobReviewPolicy.hasReview(c.review)).map(c=>({id:c.id,...c.review,occurrence_id:c.occurrence_id}))};
+  const data={repair_reviews:[],phrase_reviews:window.BobPhraseDesk?.exportReviews()||[],feature_reviews:featureClips.filter(c=>BobReviewPolicy.hasReview(featureDecision(c))).map(c=>({id:c.id,...featureDecision(c)})),schema:'bb-bob-local-review/v1',exported_at:new Date().toISOString(),reviews:allCalls().filter(c=>BobReviewPolicy.hasReview(c.review)).map(c=>({id:c.id,...c.review,occurrence_id:c.occurrence_id}))};
   const blob=new Blob([JSON.stringify(data,null,2)+'\n'],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Bob-call-review.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 };
 const featureStorageKey='bb-bob-feature-review-v1';

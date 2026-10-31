@@ -21,10 +21,10 @@ test('choice changes and reset preserve comments and original baseline choices',
  policy.resetChoice('c',base,local);const r=policy.decision('c',base,local);
  assert.equal(r.status,'keep');assert.equal(r.category,'signature_aah_haa');assert.equal(r.comment,'tail clipped');
 });
-test('uploaded defaults retain all181keeps and45failures; Ah correction stays pending',()=>{
+test('second review retains all268keeps,54failures and12comments',()=>{
  const library=JSON.parse(fs.readFileSync('manifest.json'));const calls=library.calls.map(c=>policy.effective(c,library,{}));
- assert.equal(calls.filter(c=>c.available).length,181);assert.equal(calls.filter(c=>c.review.status==='skip').length,45);
- const ah=calls.find(c=>c.id==='call-d90473ad64cbb135');assert.equal(ah.category,'ah');assert.equal(ah.label,'Ah!');assert.equal(ah.available,false);
+ assert.equal(calls.filter(c=>c.available).length,268);assert.equal(calls.filter(c=>c.review.status==='skip').length,54);assert.equal(calls.filter(c=>c.review.comment).length,12);
+ const ah=calls.find(c=>c.id==='call-d90473ad64cbb135');assert.equal(ah.category,'ah');assert.equal(ah.label,'Ah!');assert.equal(ah.available,true);assert.equal(calls.find(c=>c.id==='call-42e5612afc2c7a33').review.comment,'Look out Leon\n');
 });
 test('comment HTML is escaped, including attempted textarea/script breakout',()=>{
  const context={};vm.runInNewContext(fs.readFileSync('review-notes.js','utf8'),context);const html=context.BobReviewNotes.field({comment:'</textarea><script>alert(1)</script>" &'});

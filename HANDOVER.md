@@ -1,3 +1,9 @@
+# Complete call review and withdrawn repairs - 31 October 2026
+
+Imported the user's second review, SHA-256 `75f671296eae97ef1bc1a0be024e71959fa70b26f976aae5ea3e591c455ed8b7`:322matched IDs/occurrences,268keeps,54failures and12verbatim comments. All268kept WAV hashes match. All29vocal repair comparisons are withdrawn at the user's explicit request; their UI, script, current WAV paths and active catalogue/tools entries are removed. The original failed-call decisions remain. Old review browser keys are preserved; repair storage is left untouched but no longer exported as active candidates. Original input and pre-edit sources/repair files are preserved privately and in Git history. Earlier103-call ZIP and firmware bank remain separate.
+
+Branch `loudoun-hq/call-audition-20261030`, parent `40ae7d45c7bf644f03ebb006cfdf46064ed153bc`. Checks/final commit/bundle are in the external handover. Next: continue instrument-feature reviews and measured firmware import; audio/separation batches remain paused. Historical checkpoints below retain their original counts.
+
 # Swing out follow-up - 31 October 2026
 
 Added SWING OUT!, its call-family filter and Keep as Swing out! using category `swing_out`, at the user's request. No automatic reclassification; existing reviews, comments, storage and source audio remain unchanged. Branch `loudoun-hq/call-audition-20261030`, parent `f21eaebb4a3bc4d50bf35c48aa498e41e675e82c`. Checks, resulting commit and bundle are recorded in the adjacent external handover. Next: keep suitable calls in this category to enable the pad. Firmware import remains separate.
