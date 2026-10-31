@@ -5,13 +5,19 @@
 103 user-kept vocal extracts feed the AAH HAA!, YEAH!, encouragement and player-cue
 pads. The signature pad has13 kept variants; Yeah has8. Pads shuffle distinct
 occurrences before repeating. Your39 skips remain failed extractions. Current
-catalogue:257 call entries,103kept,39failed and115pending;42are new audition tests.
+catalogue:260 call entries,103kept,39failed and118pending;45are new audition tests.
 
-The latest batch adds four short call candidates: Aha, Yeah, Yes Sir Leon and
-All right. Words and speaker still require listening review.
+The latest batch adds two separate short Yeah candidates and a Noel player cue.
+Words and speaker still require listening review.
 Unreviewed calls stay out of usable pads.
 
-The instrumental bench has15steel and5fiddle estimates. The latest steel test
+The instrumental bench has16steel and5fiddle estimates. The latest test extends
+the earlier Tulsa opening to the complete16-bar McAuliffe improvisation: eight
+single-note bars followed by eight chordal bars. Its bass/drums and piano/rhythm
+versions retain the same complete musical passage. These share the performance
+already heard in the opening-eight test. Exact take and isolation remain open.
+
+The preceding steel test
 spans the complete48-bar final A/B/C head of Steel Guitar Rag, with melodic
 pickup and final decay retained. Each written section is16bars in2/4. The
 separated guitar estimate carries the matched upper melody throughout all three
@@ -31,8 +37,11 @@ sequence matches at115.6BPM without transposition. Lower chord voices, exact
 matrix/take and isolation quality remain open. It is an interlude, not the full
 song head. Guitar/piano model estimates may share substantial leakage.
 
-19 backing previews from6recordings offer pickup/release WAVs and19exact-body
-loop WAVs with3ms fades. Alternative stems and loop exports do not count as
+21 backing previews from6recordings offer21exact-body loop downloads with3ms
+fades. The two new Tulsa backing files already contain only the complete marked
+body, so preview and loop download use the same WAV. Independent rhythm attacks
+and quiet waveform edges support their full16-bar boundaries; the audible seam
+still needs review. Alternative stems and loop exports do not count as
 independent performances. Keep full phrase, Needs trim and Fail/Skip are separate
 review choices. No backing is yet approved for key/chord/full-phrase isolation.
 The existing Tulsa eight-bar control retains its34-note print/time comparison.
@@ -41,14 +50,18 @@ The repair bench pairs29 alternate vocal extractions with their original failed
 isolated cuts. These are the same recorded occurrences. Keep repair, Needs trim
 and Still fail export separately without reviving the original failed selection.
 
-1,033 approximate section markers cover191recordings: vocal passages, instrumental
+1,227 approximate section markers cover222recordings: vocal passages, instrumental
 openings/endings and cue-supported handoffs. ASR alone does not verify complete
 verse/chorus/solo identity, chord/key or bar boundaries.
 Two Steel Guitar Rag maps now show score-supported opening A/B/C sections and
 different final-head candidates (ABC versus AC). Source-time boundaries still
 need audition. The earlier coarse spans remain archived in the research files.
+Tulsa also has two explicit feature layers for the neck change. Its final steel
+chord overlaps the next vocal entrance; instrumental and vocal rows can overlap.
 
-[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r5.zip): four vocal candidates and one complete48-bar steel-head estimate, all separated and unreviewed.
+[Download the new audition batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r6.zip): three vocal candidates, the complete16-bar Tulsa steel solo estimate and two backing versions. Six separate WAVs, all unreviewed.
+
+[Steel Guitar Rag head batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r5.zip): four vocal candidates and the complete48-bar steel-head estimate.
 
 [Previous call/instrument batch](https://texasradio.github.io/bob-call-audition-desk/Bob-Deconstructed-audition-batch-20261031-r4.zip): nine vocal candidates and three instrument tests.
 

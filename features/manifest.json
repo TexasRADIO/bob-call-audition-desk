@@ -1113,6 +1113,158 @@
       "edge_fade_seconds": 0.003,
       "rms": 0.15999619662761688,
       "peak": 0.646915853023529
+    },
+    {
+      "source_id": "bw-f56ae365ca065a8a-5-28",
+      "source_sha256": "f56ae365ca065a8aaae4006be3d138f7d0d67c46f21bbe792acbcfb9bfacc451",
+      "source_title": "Take Me Back To Tulsa",
+      "source_album": "San Antonio Rose [Box Set][CD05]",
+      "source_file": "5-28 Take Me Back To Tulsa.mp3",
+      "start_seconds": 95.98920634920636,
+      "end_seconds": 110.69977324263039,
+      "source_start_sample_44100": 4233124,
+      "source_end_sample_44100": 4881860,
+      "occurrence_id": "solo-occ-bw-f56ae365ca065a8a-5-28-4233124-4881860",
+      "same_recorded_solo_as": "phrase-tulsa-checked-eight-bars-steel",
+      "counts_as_new_recorded_performance": false,
+      "bars": 16,
+      "beat_count": 32,
+      "meter_numerator_hypothesis": 2,
+      "written_meter": "2/4",
+      "pulse_bpm": 130.51842351896616,
+      "metrical_margin": 0.3,
+      "phrase_anchor": "Complete printed16-bar solo and33independent bass/drum quarter pulses; quiet valleys before first/next downbeat",
+      "phrase_anchor_seconds": 95.98920634920636,
+      "phrase_offset_bars": 0,
+      "phrase_complete_verified": false,
+      "written_phrase_structure_checked": true,
+      "bar_aligned": false,
+      "key": null,
+      "chord": null,
+      "source_key_hypothesis": "G major; zero-shift written-note match",
+      "source_harmony_body_quarters": [
+        {
+          "onset_quarters": "0",
+          "symbol": "G"
+        },
+        {
+          "onset_quarters": "6",
+          "symbol": "D7"
+        },
+        {
+          "onset_quarters": "14",
+          "symbol": "G"
+        },
+        {
+          "onset_quarters": "22",
+          "symbol": "D7"
+        },
+        {
+          "onset_quarters": "30",
+          "symbol": "G"
+        }
+      ],
+      "human_listening_reviewed": false,
+      "review_status": "unreviewed",
+      "available": false,
+      "score_control_id": "leon-tulsa-complete16-r1",
+      "score_control_sha256": "f2a12f38b424524601b313fa4bf8943c38208619450d181340b827a954047e77",
+      "score_source_url": "https://digital.library.adelaide.edu.au/server/api/core/bitstreams/ecc1f0bd-8919-4158-9e78-afd241fa9864/content#page=198",
+      "written_source_measures": [
+        1,
+        16
+      ],
+      "source_recording_reference": "McAuliffe,25February1941,matrixDAL1180 as source caption; owned transfer matrix/take unconfirmed",
+      "exact_recording_take_verified": false,
+      "is_original_or_context_audio": false,
+      "recording_note_alignment": {
+        "first_half": {
+          "half": 1,
+          "source_measures": [
+            1,
+            8
+          ],
+          "best": [
+            0.8279461687610996,
+            95.99166023165921,
+            129.59999999999982,
+            0
+          ],
+          "same_stem_shifted_time_controls": [
+            [
+              0.2363843370469347,
+              92.99166023165921,
+              129.59999999999982,
+              0
+            ],
+            [
+              0.18571989401994693,
+              98.99166023165921,
+              129.59999999999982,
+              0
+            ]
+          ],
+          "all_chord_voices_tested": false,
+          "fixed_prior_start": 95.99166023165948
+        },
+        "chordal_half": {
+          "half": 2,
+          "source_measures": [
+            9,
+            16
+          ],
+          "best": [
+            0.5207914542080018,
+            103.3197876447867,
+            130.49999999999977,
+            0
+          ],
+          "same_stem_shifted_time_controls": [
+            [
+              0.16726492007115956,
+              100.3197876447867,
+              130.49999999999977,
+              0
+            ],
+            [
+              0.18829167526411386,
+              106.3197876447867,
+              130.49999999999977,
+              0
+            ]
+          ],
+          "all_chord_voices_tested": true,
+          "fixed_prior_start": 103.4047876447869
+        },
+        "individual_lower_chord_voice_identity_fully_verified": false
+      },
+      "rhythm_alignment": {
+        "quarter_pulses": 33,
+        "mean_quarter_bpm": 130.6999999999998,
+        "median_abs_attack_peak_residual_seconds": 0.004582754295682889,
+        "edge_method": "Quiet RMS valleys before independently matched first and next downbeats, preserving transients; printed solo establishes16-bar scope"
+      },
+      "boundary_status": "Complete printed16-bar improvisation; rhythm/edge evidence supports full body. Loop seam, actual lower voicings and isolation still require audition.",
+      "processing": "cachedHTDemucs6s;20scontext93\u2013113s;PCM24stereo44100;3msfades;gainbounded2x/.96peak/.16RMS;nooriginalmix",
+      "id": "phrase-tulsa-full16-steel",
+      "kind": "steel",
+      "label": "Take Me Back to Tulsa \u00b7 complete16-bar steel solo",
+      "render_start_seconds": 95.66,
+      "render_end_seconds": 110.84977324263039,
+      "pickup_seconds": 0.32920634920635905,
+      "release_seconds": 0.15,
+      "performer": "Leon McAuliffe source reference; owned transfer take unconfirmed",
+      "model_target": "htdemucs_6s guitar",
+      "isolation_status": "Steel estimate retains A6 single-note and C#minor chordal halves. The vocal returns during the closing bar; its separate stem is excluded but leakage needs audition.",
+      "file": "phrases/phrase-tulsa-full16-steel.wav",
+      "wav_sha256": "bc6b78a67a50eeeefd190531a6db0d8d7f3940c184436d56ac6eb73a71c23337",
+      "sample_rate": 44100,
+      "frames": 669869,
+      "channels": 2,
+      "rms": 0.09370958060026169,
+      "peak": 0.9600000381469727,
+      "processing_gain": 1.629394604668554,
+      "edge_fade_seconds": 0.003
     }
   ]
 }
